@@ -1,4 +1,5 @@
 Myo.connect('com.myojs.poseDetector');
+Myo.unlock(unlockHold);
 
 Myo.on('status', function(data){
 	$('.events').prepend(JSON.stringify(data, null, 2));
