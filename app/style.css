@@ -1,11 +1,14 @@
 html, body{
-	width       : 100%;
+	width : 100%;
 	margin : 0;
 	padding : 0;
 }
 
 body{
-	background-color:  black;
+	background-image: url('img/giphy.gif');
+	background-size: 1920px 1080px;
+	background-position: center;
+	background-repeat: no-repeat;
 	font-family : 'arial';
 	font-size   : 12px;
 	color       : #58bccc;
@@ -17,10 +20,22 @@ body{
 	text-align: center;
 }
 
+#camContainer {
+	margin: 0px auto;
+	width: 500px;
+	height: 375px;
+	border: 10px #333 solid;
+}
+
+#videoElement {
+	width: 500px;
+	height: 375px;
+	background-color: #666;
+}
 
 .pose{
 	width : 100px;
-	margin: 0px 20px;
+	margin: 10px 20px;
 }
 
 
@@ -32,12 +47,13 @@ body{
 
 .events{
 	text-align: left;
-	width : 300px;
+	width : 50%;
 	border: 1px solid rgba(88,188,204,0.4);
 	overflow-y: scroll;
 	margin-top: 12px;
 	height: 356px;
 	font-family: "Courier New",Courier,monospace;
+
 }
 
 

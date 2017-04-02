@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src='../myo.js'></script>
+		<script src='poseDetector.js'></script>
+		<script src='player.js'></script>
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+
+		<title>MyOwnBand</title>
+	</head>
+	<body>
+		<div id="camContainer">
+			<video autoplay="true" id="videoElement">
+		</div>
+				
+		<div class='song'>
+			<audio src="blinkWhatsMyAgeAgain.mp3" id="blink182" controls></audio>		
+		</div>
+		
+		<div class='poseContainer'>
+			<img class='pose fist' src='img/fist.png' />
+		</div>
+
+		<div class='statusEvents'>
+			<h2>Make a fist and start strumming!</h2>
+			<pre class='events'></pre>
+		</div>
+	</body>
+	<script>
+		var video = document.querySelector("#videoElement");
+ 
+		navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
+ 
+		if (navigator.getUserMedia) {       
+   			navigator.getUserMedia({video: true}, handleVideo, videoError);
+		}
+ 
+		function handleVideo(stream) {
+    		video.src = window.URL.createObjectURL(stream);
+		}
+ 
+		function videoError(e) {
+    		
+		}
+	</script>
+</html>

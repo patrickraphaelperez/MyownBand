@@ -1,0 +1,2647 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'update' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 silly mapToRegistry name ws
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'ws',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   escapedName: 'ws',
+7 silly mapToRegistry   name: 'ws',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag' }
+8 silly mapToRegistry uri https://registry.npmjs.org/ws
+9 silly mapToRegistry name player
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'player',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'player',
+12 silly mapToRegistry   name: 'player',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/player
+14 verbose request uri https://registry.npmjs.org/player
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 9:30:36 PM
+17 verbose request id 5adbde660657d985
+18 verbose etag W/"58920994-9808"
+19 verbose lastModified Wed, 01 Feb 2017 16:15:16 GMT
+20 http request GET https://registry.npmjs.org/player
+21 verbose request uri https://registry.npmjs.org/ws
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 9:30:36 PM
+24 verbose etag W/"58db97e0-1ad5e"
+25 verbose lastModified Wed, 29 Mar 2017 11:17:52 GMT
+26 http request GET https://registry.npmjs.org/ws
+27 http 304 https://registry.npmjs.org/player
+28 verbose headers { date: 'Sun, 02 Apr 2017 04:30:39 GMT',
+28 verbose headers   via: '1.1 varnish',
+28 verbose headers   'cache-control': 'max-age=300',
+28 verbose headers   etag: 'W/"58920994-9808"',
+28 verbose headers   age: '117',
+28 verbose headers   connection: 'keep-alive',
+28 verbose headers   'x-served-by': 'cache-lax8635-LAX',
+28 verbose headers   'x-cache': 'HIT',
+28 verbose headers   'x-cache-hits': '1',
+28 verbose headers   'x-timer': 'S1491107439.826855,VS0,VE0',
+28 verbose headers   vary: 'Accept-Encoding' }
+29 silly get cb [ 304,
+29 silly get   { date: 'Sun, 02 Apr 2017 04:30:39 GMT',
+29 silly get     via: '1.1 varnish',
+29 silly get     'cache-control': 'max-age=300',
+29 silly get     etag: 'W/"58920994-9808"',
+29 silly get     age: '117',
+29 silly get     connection: 'keep-alive',
+29 silly get     'x-served-by': 'cache-lax8635-LAX',
+29 silly get     'x-cache': 'HIT',
+29 silly get     'x-cache-hits': '1',
+29 silly get     'x-timer': 'S1491107439.826855,VS0,VE0',
+29 silly get     vary: 'Accept-Encoding' } ]
+30 verbose etag https://registry.npmjs.org/player from cache
+31 verbose get saving player to C:\Users\Patrick\AppData\Roaming\npm-cache\registry.npmjs.org\player\.cache.json
+32 verbose correctMkdir C:\Users\Patrick\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+33 http 304 https://registry.npmjs.org/ws
+34 verbose headers { date: 'Sun, 02 Apr 2017 04:30:39 GMT',
+34 verbose headers   via: '1.1 varnish',
+34 verbose headers   'cache-control': 'max-age=300',
+34 verbose headers   etag: 'W/"58db97e0-1ad5e"',
+34 verbose headers   age: '0',
+34 verbose headers   connection: 'keep-alive',
+34 verbose headers   'x-served-by': 'cache-lax8646-LAX',
+34 verbose headers   'x-cache': 'HIT',
+34 verbose headers   'x-cache-hits': '1',
+34 verbose headers   'x-timer': 'S1491107439.833060,VS0,VE169',
+34 verbose headers   vary: 'Accept-Encoding' }
+35 silly get cb [ 304,
+35 silly get   { date: 'Sun, 02 Apr 2017 04:30:39 GMT',
+35 silly get     via: '1.1 varnish',
+35 silly get     'cache-control': 'max-age=300',
+35 silly get     etag: 'W/"58db97e0-1ad5e"',
+35 silly get     age: '0',
+35 silly get     connection: 'keep-alive',
+35 silly get     'x-served-by': 'cache-lax8646-LAX',
+35 silly get     'x-cache': 'HIT',
+35 silly get     'x-cache-hits': '1',
+35 silly get     'x-timer': 'S1491107439.833060,VS0,VE169',
+35 silly get     vary: 'Accept-Encoding' } ]
+36 verbose etag https://registry.npmjs.org/ws from cache
+37 verbose get saving ws to C:\Users\Patrick\AppData\Roaming\npm-cache\registry.npmjs.org\ws\.cache.json
+38 verbose correctMkdir C:\Users\Patrick\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+39 verbose outdated not updating ws because it's currently at the maximum version that matches its specified semver range
+40 info outdated updating [ { dep:
+40 info outdated      { package: [Object],
+40 info outdated        path: 'C:\\Users\\Patrick\\Documents\\GitHub\\MyoWnBand',
+40 info outdated        parent: [Object],
+40 info outdated        isMissing: true },
+40 info outdated     depname: 'player',
+40 info outdated     current: undefined,
+40 info outdated     wanted: '0.6.1',
+40 info outdated     latest: '0.6.1',
+40 info outdated     req: '~0.6.1',
+40 info outdated     what: 'player@0.6.1' } ]
+41 silly loadCurrentTree Starting
+42 silly install loadCurrentTree
+43 silly install readLocalPackageData
+44 silly fetchPackageMetaData player@0.6.1
+45 silly fetchNamedPackageData player
+46 silly mapToRegistry name player
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'player',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'player',
+49 silly mapToRegistry   name: 'player',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/player
+51 verbose get https://registry.npmjs.org/player not expired, no request
+52 silly install normalizeTree
+53 silly loadCurrentTree Finishing
+54 silly loadIdealTree Starting
+55 silly install loadIdealTree
+56 silly cloneCurrentTree Starting
+57 silly install cloneCurrentTreeToIdealTree
+58 silly cloneCurrentTree Finishing
+59 silly loadShrinkwrap Starting
+60 silly install loadShrinkwrap
+61 silly loadShrinkwrap Finishing
+62 silly loadAllDepsIntoIdealTree Starting
+63 silly install loadAllDepsIntoIdealTree
+64 silly resolveWithNewModule player@0.6.1 checking installable status
+65 silly cache add args [ 'player@0.6.1', null ]
+66 verbose cache add spec player@0.6.1
+67 silly cache add parsed spec Result {
+67 silly cache add   raw: 'player@0.6.1',
+67 silly cache add   scope: null,
+67 silly cache add   escapedName: 'player',
+67 silly cache add   name: 'player',
+67 silly cache add   rawSpec: '0.6.1',
+67 silly cache add   spec: '0.6.1',
+67 silly cache add   type: 'version' }
+68 silly addNamed player@0.6.1
+69 verbose addNamed "0.6.1" is a plain semver version for player
+70 silly mapToRegistry name player
+71 silly mapToRegistry using default registry
+72 silly mapToRegistry registry https://registry.npmjs.org/
+73 silly mapToRegistry data Result {
+73 silly mapToRegistry   raw: 'player',
+73 silly mapToRegistry   scope: null,
+73 silly mapToRegistry   escapedName: 'player',
+73 silly mapToRegistry   name: 'player',
+73 silly mapToRegistry   rawSpec: '',
+73 silly mapToRegistry   spec: 'latest',
+73 silly mapToRegistry   type: 'tag' }
+74 silly mapToRegistry uri https://registry.npmjs.org/player
+75 verbose addNameVersion registry:https://registry.npmjs.org/player not in flight; fetching
+76 verbose get https://registry.npmjs.org/player not expired, no request
+77 silly cache afterAdd player@0.6.1
+78 verbose afterAdd C:\Users\Patrick\AppData\Roaming\npm-cache\player\0.6.1\package\package.json not in flight; writing
+79 verbose correctMkdir C:\Users\Patrick\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+80 verbose afterAdd C:\Users\Patrick\AppData\Roaming\npm-cache\player\0.6.1\package\package.json written
+81 silly fetchNamedPackageData lame
+82 silly mapToRegistry name lame
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry data Result {
+85 silly mapToRegistry   raw: 'lame',
+85 silly mapToRegistry   scope: null,
+85 silly mapToRegistry   escapedName: 'lame',
+85 silly mapToRegistry   name: 'lame',
+85 silly mapToRegistry   rawSpec: '',
+85 silly mapToRegistry   spec: 'latest',
+85 silly mapToRegistry   type: 'tag' }
+86 silly mapToRegistry uri https://registry.npmjs.org/lame
+87 verbose request uri https://registry.npmjs.org/lame
+88 verbose request no auth needed
+89 info attempt registry request try #1 at 9:30:37 PM
+90 verbose etag W/"5770b798-4ee3"
+91 verbose lastModified Mon, 27 Jun 2016 05:20:24 GMT
+92 http request GET https://registry.npmjs.org/lame
+93 http 304 https://registry.npmjs.org/lame
+94 verbose headers { date: 'Sun, 02 Apr 2017 04:30:41 GMT',
+94 verbose headers   via: '1.1 varnish',
+94 verbose headers   'cache-control': 'max-age=300',
+94 verbose headers   etag: 'W/"5770b798-4ee3"',
+94 verbose headers   age: '118',
+94 verbose headers   connection: 'keep-alive',
+94 verbose headers   'x-served-by': 'cache-lax8635-LAX',
+94 verbose headers   'x-cache': 'HIT',
+94 verbose headers   'x-cache-hits': '1',
+94 verbose headers   'x-timer': 'S1491107441.215792,VS0,VE0',
+94 verbose headers   vary: 'Accept-Encoding' }
+95 silly get cb [ 304,
+95 silly get   { date: 'Sun, 02 Apr 2017 04:30:41 GMT',
+95 silly get     via: '1.1 varnish',
+95 silly get     'cache-control': 'max-age=300',
+95 silly get     etag: 'W/"5770b798-4ee3"',
+95 silly get     age: '118',
+95 silly get     connection: 'keep-alive',
+95 silly get     'x-served-by': 'cache-lax8635-LAX',
+95 silly get     'x-cache': 'HIT',
+95 silly get     'x-cache-hits': '1',
+95 silly get     'x-timer': 'S1491107441.215792,VS0,VE0',
+95 silly get     vary: 'Accept-Encoding' } ]
+96 verbose etag https://registry.npmjs.org/lame from cache
+97 verbose get saving lame to C:\Users\Patrick\AppData\Roaming\npm-cache\registry.npmjs.org\lame\.cache.json
+98 verbose correctMkdir C:\Users\Patrick\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+99 silly resolveWithNewModule lame@1.2.4 checking installable status
+100 silly cache add args [ 'lame@^1.2.2', null ]
+101 verbose cache add spec lame@^1.2.2
+102 silly cache add parsed spec Result {
+102 silly cache add   raw: 'lame@^1.2.2',
+102 silly cache add   scope: null,
+102 silly cache add   escapedName: 'lame',
+102 silly cache add   name: 'lame',
+102 silly cache add   rawSpec: '^1.2.2',
+102 silly cache add   spec: '>=1.2.2 <2.0.0',
+102 silly cache add   type: 'range' }
+103 silly addNamed lame@>=1.2.2 <2.0.0
+104 verbose addNamed ">=1.2.2 <2.0.0" is a valid semver range for lame
+105 silly addNameRange { name: 'lame', range: '>=1.2.2 <2.0.0', hasData: false }
+106 silly mapToRegistry name lame
+107 silly mapToRegistry using default registry
+108 silly mapToRegistry registry https://registry.npmjs.org/
+109 silly mapToRegistry data Result {
+109 silly mapToRegistry   raw: 'lame',
+109 silly mapToRegistry   scope: null,
+109 silly mapToRegistry   escapedName: 'lame',
+109 silly mapToRegistry   name: 'lame',
+109 silly mapToRegistry   rawSpec: '',
+109 silly mapToRegistry   spec: 'latest',
+109 silly mapToRegistry   type: 'tag' }
+110 silly mapToRegistry uri https://registry.npmjs.org/lame
+111 verbose addNameRange registry:https://registry.npmjs.org/lame not in flight; fetching
+112 verbose get https://registry.npmjs.org/lame not expired, no request
+113 silly addNameRange number 2 { name: 'lame', range: '>=1.2.2 <2.0.0', hasData: true }
+114 silly addNameRange versions [ 'lame',
+114 silly addNameRange   [ '0.0.1',
+114 silly addNameRange     '0.0.3',
+114 silly addNameRange     '0.0.4',
+114 silly addNameRange     '1.0.0',
+114 silly addNameRange     '1.0.1',
+114 silly addNameRange     '1.0.2',
+114 silly addNameRange     '1.0.3',
+114 silly addNameRange     '1.1.0',
+114 silly addNameRange     '1.1.1',
+114 silly addNameRange     '1.1.2',
+114 silly addNameRange     '1.2.0',
+114 silly addNameRange     '1.2.1',
+114 silly addNameRange     '1.2.2',
+114 silly addNameRange     '1.2.3',
+114 silly addNameRange     '1.2.4' ] ]
+115 silly addNamed lame@1.2.4
+116 verbose addNamed "1.2.4" is a plain semver version for lame
+117 silly cache afterAdd lame@1.2.4
+118 verbose afterAdd C:\Users\Patrick\AppData\Roaming\npm-cache\lame\1.2.4\package\package.json not in flight; writing
+119 verbose correctMkdir C:\Users\Patrick\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+120 verbose afterAdd C:\Users\Patrick\AppData\Roaming\npm-cache\lame\1.2.4\package\package.json written
+121 silly fetchNamedPackageData readable-stream
+122 silly mapToRegistry name readable-stream
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry data Result {
+125 silly mapToRegistry   raw: 'readable-stream',
+125 silly mapToRegistry   scope: null,
+125 silly mapToRegistry   escapedName: 'readable-stream',
+125 silly mapToRegistry   name: 'readable-stream',
+125 silly mapToRegistry   rawSpec: '',
+125 silly mapToRegistry   spec: 'latest',
+125 silly mapToRegistry   type: 'tag' }
+126 silly mapToRegistry uri https://registry.npmjs.org/readable-stream
+127 silly fetchNamedPackageData nan
+128 silly mapToRegistry name nan
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry data Result {
+131 silly mapToRegistry   raw: 'nan',
+131 silly mapToRegistry   scope: null,
+131 silly mapToRegistry   escapedName: 'nan',
+131 silly mapToRegistry   name: 'nan',
+131 silly mapToRegistry   rawSpec: '',
+131 silly mapToRegistry   spec: 'latest',
+131 silly mapToRegistry   type: 'tag' }
+132 silly mapToRegistry uri https://registry.npmjs.org/nan
+133 verbose request uri https://registry.npmjs.org/readable-stream
+134 verbose request no auth needed
+135 info attempt registry request try #1 at 9:30:38 PM
+136 verbose etag W/"58ca4693-146fb"
+137 verbose lastModified Thu, 16 Mar 2017 08:02:27 GMT
+138 http request GET https://registry.npmjs.org/readable-stream
+139 verbose request uri https://registry.npmjs.org/nan
+140 verbose request no auth needed
+141 info attempt registry request try #1 at 9:30:38 PM
+142 verbose etag W/"58dea142-1df90"
+143 verbose lastModified Fri, 31 Mar 2017 18:34:42 GMT
+144 http request GET https://registry.npmjs.org/nan
+145 http 304 https://registry.npmjs.org/readable-stream
+146 verbose headers { date: 'Sun, 02 Apr 2017 04:30:42 GMT',
+146 verbose headers   via: '1.1 varnish',
+146 verbose headers   'cache-control': 'max-age=300',
+146 verbose headers   etag: 'W/"58ca4693-146fb"',
+146 verbose headers   age: '26',
+146 verbose headers   connection: 'keep-alive',
+146 verbose headers   'x-served-by': 'cache-lax8646-LAX',
+146 verbose headers   'x-cache': 'HIT',
+146 verbose headers   'x-cache-hits': '1',
+146 verbose headers   'x-timer': 'S1491107442.026646,VS0,VE0',
+146 verbose headers   vary: 'Accept-Encoding' }
+147 silly get cb [ 304,
+147 silly get   { date: 'Sun, 02 Apr 2017 04:30:42 GMT',
+147 silly get     via: '1.1 varnish',
+147 silly get     'cache-control': 'max-age=300',
+147 silly get     etag: 'W/"58ca4693-146fb"',
+147 silly get     age: '26',
+147 silly get     connection: 'keep-alive',
+147 silly get     'x-served-by': 'cache-lax8646-LAX',
+147 silly get     'x-cache': 'HIT',
+147 silly get     'x-cache-hits': '1',
+147 silly get     'x-timer': 'S1491107442.026646,VS0,VE0',
+147 silly get     vary: 'Accept-Encoding' } ]
+148 verbose etag https://registry.npmjs.org/readable-stream from cache
+149 verbose get saving readable-stream to C:\Users\Patrick\AppData\Roaming\npm-cache\registry.npmjs.org\readable-stream\.cache.json
+150 verbose correctMkdir C:\Users\Patrick\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+151 http 304 https://registry.npmjs.org/nan
+152 verbose headers { date: 'Sun, 02 Apr 2017 04:30:42 GMT',
+152 verbose headers   via: '1.1 varnish',
+152 verbose headers   'cache-control': 'max-age=300',
+152 verbose headers   etag: 'W/"58dea142-1df90"',
+152 verbose headers   age: '275',
+152 verbose headers   connection: 'keep-alive',
+152 verbose headers   'x-served-by': 'cache-lax8635-LAX',
+152 verbose headers   'x-cache': 'HIT',
+152 verbose headers   'x-cache-hits': '1',
+152 verbose headers   'x-timer': 'S1491107442.040920,VS0,VE0',
+152 verbose headers   vary: 'Accept-Encoding' }
+153 silly get cb [ 304,
+153 silly get   { date: 'Sun, 02 Apr 2017 04:30:42 GMT',
+153 silly get     via: '1.1 varnish',
+153 silly get     'cache-control': 'max-age=300',
+153 silly get     etag: 'W/"58dea142-1df90"',
+153 silly get     age: '275',
+153 silly get     connection: 'keep-alive',
+153 silly get     'x-served-by': 'cache-lax8635-LAX',
+153 silly get     'x-cache': 'HIT',
+153 silly get     'x-cache-hits': '1',
+153 silly get     'x-timer': 'S1491107442.040920,VS0,VE0',
+153 silly get     vary: 'Accept-Encoding' } ]
+154 verbose etag https://registry.npmjs.org/nan from cache
+155 verbose get saving nan to C:\Users\Patrick\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+156 verbose correctMkdir C:\Users\Patrick\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+157 silly resolveWithNewModule readable-stream@1.1.14 checking installable status
+158 silly cache add args [ 'readable-stream@^1.0.34', null ]
+159 verbose cache add spec readable-stream@^1.0.34
+160 silly cache add parsed spec Result {
+160 silly cache add   raw: 'readable-stream@^1.0.34',
+160 silly cache add   scope: null,
+160 silly cache add   escapedName: 'readable-stream',
+160 silly cache add   name: 'readable-stream',
+160 silly cache add   rawSpec: '^1.0.34',
+160 silly cache add   spec: '>=1.0.34 <2.0.0',
+160 silly cache add   type: 'range' }
+161 silly addNamed readable-stream@>=1.0.34 <2.0.0
+162 verbose addNamed ">=1.0.34 <2.0.0" is a valid semver range for readable-stream
+163 silly addNameRange { name: 'readable-stream',
+163 silly addNameRange   range: '>=1.0.34 <2.0.0',
+163 silly addNameRange   hasData: false }
+164 silly mapToRegistry name readable-stream
+165 silly mapToRegistry using default registry
+166 silly mapToRegistry registry https://registry.npmjs.org/
+167 silly mapToRegistry data Result {
+167 silly mapToRegistry   raw: 'readable-stream',
+167 silly mapToRegistry   scope: null,
+167 silly mapToRegistry   escapedName: 'readable-stream',
+167 silly mapToRegistry   name: 'readable-stream',
+167 silly mapToRegistry   rawSpec: '',
+167 silly mapToRegistry   spec: 'latest',
+167 silly mapToRegistry   type: 'tag' }
+168 silly mapToRegistry uri https://registry.npmjs.org/readable-stream
+169 verbose addNameRange registry:https://registry.npmjs.org/readable-stream not in flight; fetching
+170 verbose get https://registry.npmjs.org/readable-stream not expired, no request
+171 silly addNameRange number 2 { name: 'readable-stream',
+171 silly addNameRange   range: '>=1.0.34 <2.0.0',
+171 silly addNameRange   hasData: true }
+172 silly addNameRange versions [ 'readable-stream',
+172 silly addNameRange   [ '0.0.1',
+172 silly addNameRange     '0.0.2',
+172 silly addNameRange     '0.0.3',
+172 silly addNameRange     '0.0.4',
+172 silly addNameRange     '0.1.0',
+172 silly addNameRange     '0.2.0',
+172 silly addNameRange     '0.3.0',
+172 silly addNameRange     '0.3.1',
+172 silly addNameRange     '1.0.0',
+172 silly addNameRange     '1.0.1',
+172 silly addNameRange     '1.0.2',
+172 silly addNameRange     '1.0.15',
+172 silly addNameRange     '1.0.17',
+172 silly addNameRange     '1.1.7',
+172 silly addNameRange     '1.1.8',
+172 silly addNameRange     '1.1.9',
+172 silly addNameRange     '1.0.24',
+172 silly addNameRange     '1.0.25',
+172 silly addNameRange     '1.1.10',
+172 silly addNameRange     '1.0.25-1',
+172 silly addNameRange     '1.1.11',
+172 silly addNameRange     '1.0.26',
+172 silly addNameRange     '1.0.26-1',
+172 silly addNameRange     '1.1.11-1',
+172 silly addNameRange     '1.0.26-2',
+172 silly addNameRange     '1.1.12',
+172 silly addNameRange     '1.0.26-3',
+172 silly addNameRange     '1.0.26-4',
+172 silly addNameRange     '1.1.12-1',
+172 silly addNameRange     '1.0.27-1',
+172 silly addNameRange     '1.1.13-1',
+172 silly addNameRange     '1.0.31',
+172 silly addNameRange     '1.1.13',
+172 silly addNameRange     '1.0.32',
+172 silly addNameRange     '1.0.32-1',
+172 silly addNameRange     '1.0.33-1',
+172 silly addNameRange     '1.0.33-2',
+172 silly addNameRange     '1.0.33',
+172 silly addNameRange     '2.0.0',
+172 silly addNameRange     '2.0.1',
+172 silly addNameRange     '2.0.2',
+172 silly addNameRange     '2.0.3',
+172 silly addNameRange     '2.0.4',
+172 silly addNameRange     '2.0.5',
+172 silly addNameRange     '2.0.6',
+172 silly addNameRange     '1.0.34',
+172 silly addNameRange     '1.1.14',
+172 silly addNameRange     '2.1.0',
+172 silly addNameRange     '2.1.1',
+172 silly addNameRange     '2.1.2',
+172 silly addNameRange     '2.1.3',
+172 silly addNameRange     '2.1.4',
+172 silly addNameRange     '2.1.5',
+172 silly addNameRange     '2.2.0',
+172 silly addNameRange     '2.2.1',
+172 silly addNameRange     '2.2.2',
+172 silly addNameRange     '2.2.3',
+172 silly addNameRange     '2.2.4',
+172 silly addNameRange     '2.2.5',
+172 silly addNameRange     '2.2.6' ] ]
+173 silly addNamed readable-stream@1.1.14
+174 verbose addNamed "1.1.14" is a plain semver version for readable-stream
+175 silly resolveWithNewModule nan@2.5.1 checking installable status
+176 silly cache add args [ 'nan@^2.3.5', null ]
+177 verbose cache add spec nan@^2.3.5
+178 silly cache add parsed spec Result {
+178 silly cache add   raw: 'nan@^2.3.5',
+178 silly cache add   scope: null,
+178 silly cache add   escapedName: 'nan',
+178 silly cache add   name: 'nan',
+178 silly cache add   rawSpec: '^2.3.5',
+178 silly cache add   spec: '>=2.3.5 <3.0.0',
+178 silly cache add   type: 'range' }
+179 silly addNamed nan@>=2.3.5 <3.0.0
+180 verbose addNamed ">=2.3.5 <3.0.0" is a valid semver range for nan
+181 silly addNameRange { name: 'nan', range: '>=2.3.5 <3.0.0', hasData: false }
+182 silly mapToRegistry name nan
+183 silly mapToRegistry using default registry
+184 silly mapToRegistry registry https://registry.npmjs.org/
+185 silly mapToRegistry data Result {
+185 silly mapToRegistry   raw: 'nan',
+185 silly mapToRegistry   scope: null,
+185 silly mapToRegistry   escapedName: 'nan',
+185 silly mapToRegistry   name: 'nan',
+185 silly mapToRegistry   rawSpec: '',
+185 silly mapToRegistry   spec: 'latest',
+185 silly mapToRegistry   type: 'tag' }
+186 silly mapToRegistry uri https://registry.npmjs.org/nan
+187 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+188 silly cache afterAdd readable-stream@1.1.14
+189 verbose afterAdd C:\Users\Patrick\AppData\Roaming\npm-cache\readable-stream\1.1.14\package\package.json not in flight; writing
+190 verbose correctMkdir C:\Users\Patrick\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+191 verbose get https://registry.npmjs.org/nan not expired, no request
+192 silly addNameRange number 2 { name: 'nan', range: '>=2.3.5 <3.0.0', hasData: true }
+193 silly addNameRange versions [ 'nan',
+193 silly addNameRange   [ '0.3.0-wip',
+193 silly addNameRange     '0.3.0-wip2',
+193 silly addNameRange     '0.3.0',
+193 silly addNameRange     '0.3.1',
+193 silly addNameRange     '0.3.2',
+193 silly addNameRange     '0.4.0',
+193 silly addNameRange     '0.4.1',
+193 silly addNameRange     '0.4.2',
+193 silly addNameRange     '0.4.3',
+193 silly addNameRange     '0.4.4',
+193 silly addNameRange     '0.5.0',
+193 silly addNameRange     '0.5.1',
+193 silly addNameRange     '0.5.2',
+193 silly addNameRange     '0.6.0',
+193 silly addNameRange     '0.7.0',
+193 silly addNameRange     '0.7.1',
+193 silly addNameRange     '0.8.0',
+193 silly addNameRange     '1.0.0',
+193 silly addNameRange     '1.1.0',
+193 silly addNameRange     '1.1.1',
+193 silly addNameRange     '1.1.2',
+193 silly addNameRange     '1.2.0',
+193 silly addNameRange     '1.3.0',
+193 silly addNameRange     '1.4.0',
+193 silly addNameRange     '1.4.1',
+193 silly addNameRange     '1.5.0',
+193 silly addNameRange     '1.4.2',
+193 silly addNameRange     '1.4.3',
+193 silly addNameRange     '1.5.1',
+193 silly addNameRange     '1.5.2',
+193 silly addNameRange     '1.6.0',
+193 silly addNameRange     '1.5.3',
+193 silly addNameRange     '1.6.1',
+193 silly addNameRange     '1.6.2',
+193 silly addNameRange     '1.7.0',
+193 silly addNameRange     '1.8.0',
+193 silly addNameRange     '1.8.1',
+193 silly addNameRange     '1.8.2',
+193 silly addNameRange     '1.8.3',
+193 silly addNameRange     '1.8.4',
+193 silly addNameRange     '1.9.0',
+193 silly addNameRange     '2.0.0',
+193 silly addNameRange     '2.0.1',
+193 silly addNameRange     '2.0.2',
+193 silly addNameRange     '2.0.3',
+193 silly addNameRange     '2.0.4',
+193 silly addNameRange     '2.0.5',
+193 silly addNameRange     '2.0.6',
+193 silly addNameRange     '2.0.7',
+193 silly addNameRange     '2.0.8',
+193 silly addNameRange     '2.0.9',
+193 silly addNameRange     '2.1.0',
+193 silly addNameRange     '2.2.0',
+193 silly addNameRange     '2.2.1',
+193 silly addNameRange     '2.3.0',
+193 silly addNameRange     '2.3.1',
+193 silly addNameRange     '2.3.2',
+193 silly addNameRange     '2.3.3',
+193 silly addNameRange     '2.3.4',
+193 silly addNameRange     '2.3.5',
+193 silly addNameRange     '2.4.0',
+193 silly addNameRange     '2.5.0',
+193 silly addNameRange     '2.5.1' ] ]
+194 silly addNamed nan@2.5.1
+195 verbose addNamed "2.5.1" is a plain semver version for nan
+196 silly cache afterAdd nan@2.5.1
+197 verbose afterAdd C:\Users\Patrick\AppData\Roaming\npm-cache\nan\2.5.1\package\package.json not in flight; writing
+198 verbose correctMkdir C:\Users\Patrick\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+199 verbose afterAdd C:\Users\Patrick\AppData\Roaming\npm-cache\readable-stream\1.1.14\package\package.json written
+200 verbose afterAdd C:\Users\Patrick\AppData\Roaming\npm-cache\nan\2.5.1\package\package.json written
+201 silly loadAllDepsIntoIdealTree Finishing
+202 silly loadIdealTree Finishing
+203 silly currentTree myo@3.0.0
+203 silly currentTree +-- abbrev@1.1.0
+203 silly currentTree +-- ajv@4.11.5
+203 silly currentTree +-- ansi-regex@2.1.1
+203 silly currentTree +-- aproba@1.1.1
+203 silly currentTree +-- are-we-there-yet@1.1.2
+203 silly currentTree +-- asn1@0.2.3
+203 silly currentTree +-- assert-plus@0.2.0
+203 silly currentTree +-- async@0.9.2
+203 silly currentTree +-- asynckit@0.4.0
+203 silly currentTree +-- aws-sign2@0.6.0
+203 silly currentTree +-- aws4@1.6.0
+203 silly currentTree +-- balanced-match@0.4.2
+203 silly currentTree +-- bcrypt-pbkdf@1.0.1
+203 silly currentTree +-- bindings@1.2.1
+203 silly currentTree +-- block-stream@0.0.9
+203 silly currentTree +-- boom@2.10.1
+203 silly currentTree +-- brace-expansion@1.1.6
+203 silly currentTree +-- buffer-shims@1.0.0
+203 silly currentTree +-- caseless@0.12.0
+203 silly currentTree +-- co@4.6.0
+203 silly currentTree +-- code-point-at@1.1.0
+203 silly currentTree +-- combined-stream@1.0.5
+203 silly currentTree +-- commander@2.1.0
+203 silly currentTree +-- concat-map@0.0.1
+203 silly currentTree +-- console-control-strings@1.1.0
+203 silly currentTree +-- core-util-is@1.0.2
+203 silly currentTree +-- cryptiles@2.0.5
+203 silly currentTree +-- dashdash@1.14.1
+203 silly currentTree | `-- assert-plus@1.0.0
+203 silly currentTree +-- debug@2.6.3
+203 silly currentTree +-- delayed-stream@1.0.0
+203 silly currentTree +-- delegates@1.0.0
+203 silly currentTree +-- ecc-jsbn@0.1.1
+203 silly currentTree +-- extend@3.0.0
+203 silly currentTree +-- extsprintf@1.0.2
+203 silly currentTree +-- follow-redirects@0.0.7
+203 silly currentTree +-- forever-agent@0.6.1
+203 silly currentTree +-- form-data@2.1.2
+203 silly currentTree +-- fs.realpath@1.0.0
+203 silly currentTree +-- fstream@1.0.11
+203 silly currentTree +-- gauge@2.7.3
+203 silly currentTree +-- getpass@0.1.6
+203 silly currentTree | `-- assert-plus@1.0.0
+203 silly currentTree +-- glob@7.1.1
+203 silly currentTree +-- graceful-fs@4.1.11
+203 silly currentTree +-- har-schema@1.0.5
+203 silly currentTree +-- har-validator@4.2.1
+203 silly currentTree +-- has-unicode@2.0.1
+203 silly currentTree +-- hawk@3.1.3
+203 silly currentTree +-- hoek@2.16.3
+203 silly currentTree +-- home@0.1.8
+203 silly currentTree +-- http-signature@1.1.1
+203 silly currentTree +-- inflight@1.0.6
+203 silly currentTree +-- inherits@2.0.3
+203 silly currentTree +-- is-fullwidth-code-point@1.0.0
+203 silly currentTree +-- is-typedarray@1.0.0
+203 silly currentTree +-- isarray@0.0.1
+203 silly currentTree +-- isexe@2.0.0
+203 silly currentTree +-- isstream@0.1.2
+203 silly currentTree +-- jodid25519@1.0.2
+203 silly currentTree +-- jsbn@0.1.1
+203 silly currentTree +-- json-schema@0.2.3
+203 silly currentTree +-- json-stable-stringify@1.0.1
+203 silly currentTree +-- json-stringify-safe@5.0.1
+203 silly currentTree +-- jsonify@0.0.0
+203 silly currentTree +-- jsprim@1.4.0
+203 silly currentTree | `-- assert-plus@1.0.0
+203 silly currentTree +-- keypress@0.2.1
+203 silly currentTree +-- mime-db@1.27.0
+203 silly currentTree +-- mime-types@2.1.15
+203 silly currentTree +-- minimatch@3.0.3
+203 silly currentTree +-- minimist@0.0.8
+203 silly currentTree +-- mkdirp@0.5.1
+203 silly currentTree +-- ms@0.7.2
+203 silly currentTree +-- nan@1.0.0
+203 silly currentTree +-- node-gyp@3.6.0
+203 silly currentTree +-- nopt@3.0.6
+203 silly currentTree +-- npmlog@4.0.2
+203 silly currentTree +-- number-is-nan@1.0.1
+203 silly currentTree +-- oauth-sign@0.8.2
+203 silly currentTree +-- object-assign@4.1.1
+203 silly currentTree +-- once@1.4.0
+203 silly currentTree +-- optimist@0.3.7
+203 silly currentTree +-- options@0.0.6
+203 silly currentTree +-- os-homedir@1.0.2
+203 silly currentTree +-- os-tmpdir@1.0.2
+203 silly currentTree +-- osenv@0.1.4
+203 silly currentTree +-- path-is-absolute@1.0.1
+203 silly currentTree +-- pcm-volume@1.0.0
+203 silly currentTree +-- performance-now@0.2.0
+203 silly currentTree +-- pool_stream@0.0.2
+203 silly currentTree +-- process-nextick-args@1.0.7
+203 silly currentTree +-- punycode@1.4.1
+203 silly currentTree +-- qs@6.4.0
+203 silly currentTree +-- readable-stream@2.2.6
+203 silly currentTree | `-- isarray@1.0.0
+203 silly currentTree +-- rebuild@0.1.2
+203 silly currentTree +-- request@2.81.0
+203 silly currentTree +-- rimraf@2.6.1
+203 silly currentTree +-- safe-buffer@5.0.1
+203 silly currentTree +-- semver@5.3.0
+203 silly currentTree +-- set-blocking@2.0.0
+203 silly currentTree +-- signal-exit@3.0.2
+203 silly currentTree +-- sntp@1.0.9
+203 silly currentTree +-- speaker@0.2.6
+203 silly currentTree | +-- nan@2.5.1
+203 silly currentTree | `-- readable-stream@1.0.34
+203 silly currentTree +-- sshpk@1.11.0
+203 silly currentTree | `-- assert-plus@1.0.0
+203 silly currentTree +-- stream-consume@0.1.0
+203 silly currentTree +-- string_decoder@0.10.31
+203 silly currentTree +-- string-width@1.0.2
+203 silly currentTree +-- stringstream@0.0.5
+203 silly currentTree +-- strip-ansi@3.0.1
+203 silly currentTree +-- tar@2.2.1
+203 silly currentTree +-- tinycolor@0.0.1
+203 silly currentTree +-- tough-cookie@2.3.2
+203 silly currentTree +-- tunnel-agent@0.6.0
+203 silly currentTree +-- tweetnacl@0.14.5
+203 silly currentTree +-- underscore@1.6.0
+203 silly currentTree +-- util-deprecate@1.0.2
+203 silly currentTree +-- uuid@3.0.1
+203 silly currentTree +-- verror@1.3.6
+203 silly currentTree +-- which@1.2.14
+203 silly currentTree +-- wide-align@1.1.0
+203 silly currentTree +-- wordwrap@0.0.3
+203 silly currentTree +-- wrappy@1.0.2
+203 silly currentTree `-- ws@0.4.32
+204 silly idealTree myo@3.0.0
+204 silly idealTree +-- abbrev@1.1.0
+204 silly idealTree +-- ajv@4.11.5
+204 silly idealTree +-- ansi-regex@2.1.1
+204 silly idealTree +-- aproba@1.1.1
+204 silly idealTree +-- are-we-there-yet@1.1.2
+204 silly idealTree +-- asn1@0.2.3
+204 silly idealTree +-- assert-plus@0.2.0
+204 silly idealTree +-- async@0.9.2
+204 silly idealTree +-- asynckit@0.4.0
+204 silly idealTree +-- aws-sign2@0.6.0
+204 silly idealTree +-- aws4@1.6.0
+204 silly idealTree +-- balanced-match@0.4.2
+204 silly idealTree +-- bcrypt-pbkdf@1.0.1
+204 silly idealTree +-- bindings@1.2.1
+204 silly idealTree +-- block-stream@0.0.9
+204 silly idealTree +-- boom@2.10.1
+204 silly idealTree +-- brace-expansion@1.1.6
+204 silly idealTree +-- buffer-shims@1.0.0
+204 silly idealTree +-- caseless@0.12.0
+204 silly idealTree +-- co@4.6.0
+204 silly idealTree +-- code-point-at@1.1.0
+204 silly idealTree +-- combined-stream@1.0.5
+204 silly idealTree +-- commander@2.1.0
+204 silly idealTree +-- concat-map@0.0.1
+204 silly idealTree +-- console-control-strings@1.1.0
+204 silly idealTree +-- core-util-is@1.0.2
+204 silly idealTree +-- cryptiles@2.0.5
+204 silly idealTree +-- dashdash@1.14.1
+204 silly idealTree | `-- assert-plus@1.0.0
+204 silly idealTree +-- debug@2.6.3
+204 silly idealTree +-- delayed-stream@1.0.0
+204 silly idealTree +-- delegates@1.0.0
+204 silly idealTree +-- ecc-jsbn@0.1.1
+204 silly idealTree +-- extend@3.0.0
+204 silly idealTree +-- extsprintf@1.0.2
+204 silly idealTree +-- follow-redirects@0.0.7
+204 silly idealTree +-- forever-agent@0.6.1
+204 silly idealTree +-- form-data@2.1.2
+204 silly idealTree +-- fs.realpath@1.0.0
+204 silly idealTree +-- fstream@1.0.11
+204 silly idealTree +-- gauge@2.7.3
+204 silly idealTree +-- getpass@0.1.6
+204 silly idealTree | `-- assert-plus@1.0.0
+204 silly idealTree +-- glob@7.1.1
+204 silly idealTree +-- graceful-fs@4.1.11
+204 silly idealTree +-- har-schema@1.0.5
+204 silly idealTree +-- har-validator@4.2.1
+204 silly idealTree +-- has-unicode@2.0.1
+204 silly idealTree +-- hawk@3.1.3
+204 silly idealTree +-- hoek@2.16.3
+204 silly idealTree +-- home@0.1.8
+204 silly idealTree +-- http-signature@1.1.1
+204 silly idealTree +-- inflight@1.0.6
+204 silly idealTree +-- inherits@2.0.3
+204 silly idealTree +-- is-fullwidth-code-point@1.0.0
+204 silly idealTree +-- is-typedarray@1.0.0
+204 silly idealTree +-- isarray@0.0.1
+204 silly idealTree +-- isexe@2.0.0
+204 silly idealTree +-- isstream@0.1.2
+204 silly idealTree +-- jodid25519@1.0.2
+204 silly idealTree +-- jsbn@0.1.1
+204 silly idealTree +-- json-schema@0.2.3
+204 silly idealTree +-- json-stable-stringify@1.0.1
+204 silly idealTree +-- json-stringify-safe@5.0.1
+204 silly idealTree +-- jsonify@0.0.0
+204 silly idealTree +-- jsprim@1.4.0
+204 silly idealTree | `-- assert-plus@1.0.0
+204 silly idealTree +-- keypress@0.2.1
+204 silly idealTree +-- lame@1.2.4
+204 silly idealTree | +-- nan@2.5.1
+204 silly idealTree | `-- readable-stream@1.1.14
+204 silly idealTree +-- mime-db@1.27.0
+204 silly idealTree +-- mime-types@2.1.15
+204 silly idealTree +-- minimatch@3.0.3
+204 silly idealTree +-- minimist@0.0.8
+204 silly idealTree +-- mkdirp@0.5.1
+204 silly idealTree +-- ms@0.7.2
+204 silly idealTree +-- nan@1.0.0
+204 silly idealTree +-- node-gyp@3.6.0
+204 silly idealTree +-- nopt@3.0.6
+204 silly idealTree +-- npmlog@4.0.2
+204 silly idealTree +-- number-is-nan@1.0.1
+204 silly idealTree +-- oauth-sign@0.8.2
+204 silly idealTree +-- object-assign@4.1.1
+204 silly idealTree +-- once@1.4.0
+204 silly idealTree +-- optimist@0.3.7
+204 silly idealTree +-- options@0.0.6
+204 silly idealTree +-- os-homedir@1.0.2
+204 silly idealTree +-- os-tmpdir@1.0.2
+204 silly idealTree +-- osenv@0.1.4
+204 silly idealTree +-- path-is-absolute@1.0.1
+204 silly idealTree +-- pcm-volume@1.0.0
+204 silly idealTree +-- performance-now@0.2.0
+204 silly idealTree +-- player@0.6.1
+204 silly idealTree +-- pool_stream@0.0.2
+204 silly idealTree +-- process-nextick-args@1.0.7
+204 silly idealTree +-- punycode@1.4.1
+204 silly idealTree +-- qs@6.4.0
+204 silly idealTree +-- readable-stream@2.2.6
+204 silly idealTree | `-- isarray@1.0.0
+204 silly idealTree +-- rebuild@0.1.2
+204 silly idealTree +-- request@2.81.0
+204 silly idealTree +-- rimraf@2.6.1
+204 silly idealTree +-- safe-buffer@5.0.1
+204 silly idealTree +-- semver@5.3.0
+204 silly idealTree +-- set-blocking@2.0.0
+204 silly idealTree +-- signal-exit@3.0.2
+204 silly idealTree +-- sntp@1.0.9
+204 silly idealTree +-- speaker@0.2.6
+204 silly idealTree | +-- nan@2.5.1
+204 silly idealTree | `-- readable-stream@1.0.34
+204 silly idealTree +-- sshpk@1.11.0
+204 silly idealTree | `-- assert-plus@1.0.0
+204 silly idealTree +-- stream-consume@0.1.0
+204 silly idealTree +-- string_decoder@0.10.31
+204 silly idealTree +-- string-width@1.0.2
+204 silly idealTree +-- stringstream@0.0.5
+204 silly idealTree +-- strip-ansi@3.0.1
+204 silly idealTree +-- tar@2.2.1
+204 silly idealTree +-- tinycolor@0.0.1
+204 silly idealTree +-- tough-cookie@2.3.2
+204 silly idealTree +-- tunnel-agent@0.6.0
+204 silly idealTree +-- tweetnacl@0.14.5
+204 silly idealTree +-- underscore@1.6.0
+204 silly idealTree +-- util-deprecate@1.0.2
+204 silly idealTree +-- uuid@3.0.1
+204 silly idealTree +-- verror@1.3.6
+204 silly idealTree +-- which@1.2.14
+204 silly idealTree +-- wide-align@1.1.0
+204 silly idealTree +-- wordwrap@0.0.3
+204 silly idealTree +-- wrappy@1.0.2
+204 silly idealTree `-- ws@0.4.32
+205 silly generateActionsToTake Starting
+206 silly install generateActionsToTake
+207 silly generateActionsToTake Finishing
+208 silly diffTrees action count 4
+209 silly diffTrees add nan@2.5.1
+210 silly diffTrees add readable-stream@1.1.14
+211 silly diffTrees add lame@1.2.4
+212 silly diffTrees add player@0.6.1
+213 silly decomposeActions action count 32
+214 silly decomposeActions fetch nan@2.5.1
+215 silly decomposeActions extract nan@2.5.1
+216 silly decomposeActions test nan@2.5.1
+217 silly decomposeActions preinstall nan@2.5.1
+218 silly decomposeActions build nan@2.5.1
+219 silly decomposeActions install nan@2.5.1
+220 silly decomposeActions postinstall nan@2.5.1
+221 silly decomposeActions finalize nan@2.5.1
+222 silly decomposeActions fetch readable-stream@1.1.14
+223 silly decomposeActions extract readable-stream@1.1.14
+224 silly decomposeActions test readable-stream@1.1.14
+225 silly decomposeActions preinstall readable-stream@1.1.14
+226 silly decomposeActions build readable-stream@1.1.14
+227 silly decomposeActions install readable-stream@1.1.14
+228 silly decomposeActions postinstall readable-stream@1.1.14
+229 silly decomposeActions finalize readable-stream@1.1.14
+230 silly decomposeActions fetch lame@1.2.4
+231 silly decomposeActions extract lame@1.2.4
+232 silly decomposeActions test lame@1.2.4
+233 silly decomposeActions preinstall lame@1.2.4
+234 silly decomposeActions build lame@1.2.4
+235 silly decomposeActions install lame@1.2.4
+236 silly decomposeActions postinstall lame@1.2.4
+237 silly decomposeActions finalize lame@1.2.4
+238 silly decomposeActions fetch player@0.6.1
+239 silly decomposeActions extract player@0.6.1
+240 silly decomposeActions test player@0.6.1
+241 silly decomposeActions preinstall player@0.6.1
+242 silly decomposeActions build player@0.6.1
+243 silly decomposeActions install player@0.6.1
+244 silly decomposeActions postinstall player@0.6.1
+245 silly decomposeActions finalize player@0.6.1
+246 silly runTopLevelLifecycles Starting
+247 silly executeActions Starting
+248 silly install executeActions
+249 silly doSerial global-install 0
+250 silly doParallel fetch 4
+251 verbose correctMkdir C:\Users\Patrick\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+252 verbose lock using C:\Users\Patrick\AppData\Roaming\npm-cache\_locks\staging-5907bf6444b98e32.lock for C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging
+253 silly doParallel extract 4
+254 silly extract nan@2.5.1
+255 silly extract readable-stream@1.1.14
+256 silly extract lame@1.2.4
+257 silly extract player@0.6.1
+258 verbose unbuild node_modules\.staging\nan-6353377c
+259 verbose unbuild node_modules\.staging\readable-stream-124b6779
+260 verbose unbuild node_modules\.staging\lame-ccb8905a
+261 verbose unbuild node_modules\.staging\player-67cb1b3f
+262 silly gentlyRm C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\nan-6353377c is being purged from base C:\Users\Patrick\Documents\GitHub\MyoWnBand
+263 verbose gentlyRm don't care about contents; nuking C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\nan-6353377c
+264 silly gentlyRm C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\readable-stream-124b6779 is being purged from base C:\Users\Patrick\Documents\GitHub\MyoWnBand
+265 verbose gentlyRm don't care about contents; nuking C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\readable-stream-124b6779
+266 silly gentlyRm C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\lame-ccb8905a is being purged from base C:\Users\Patrick\Documents\GitHub\MyoWnBand
+267 verbose gentlyRm don't care about contents; nuking C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\lame-ccb8905a
+268 verbose tar unpack C:\Users\Patrick\AppData\Roaming\npm-cache\nan\2.5.1\package.tgz
+269 verbose tar unpacking to C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\nan-6353377c
+270 silly gentlyRm C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\nan-6353377c is being purged
+271 verbose gentlyRm don't care about contents; nuking C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\nan-6353377c
+272 verbose tar unpack C:\Users\Patrick\AppData\Roaming\npm-cache\readable-stream\1.1.14\package.tgz
+273 verbose tar unpacking to C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\readable-stream-124b6779
+274 silly gentlyRm C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\readable-stream-124b6779 is being purged
+275 verbose gentlyRm don't care about contents; nuking C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\readable-stream-124b6779
+276 verbose tar unpack C:\Users\Patrick\AppData\Roaming\npm-cache\lame\1.2.4\package.tgz
+277 verbose tar unpacking to C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\lame-ccb8905a
+278 silly gentlyRm C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\lame-ccb8905a is being purged
+279 verbose gentlyRm don't care about contents; nuking C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\lame-ccb8905a
+280 silly gentlyRm C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\player-67cb1b3f is being purged from base C:\Users\Patrick\Documents\GitHub\MyoWnBand
+281 verbose gentlyRm don't care about contents; nuking C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\player-67cb1b3f
+282 silly gunzTarPerm modes [ '777', '666' ]
+283 silly gunzTarPerm modes [ '777', '666' ]
+284 silly gunzTarPerm modes [ '777', '666' ]
+285 verbose tar unpack C:\Users\Patrick\AppData\Roaming\npm-cache\player\0.6.1\package.tgz
+286 verbose tar unpacking to C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\player-67cb1b3f
+287 silly gentlyRm C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\player-67cb1b3f is being purged
+288 verbose gentlyRm don't care about contents; nuking C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\player-67cb1b3f
+289 silly gunzTarPerm modes [ '777', '666' ]
+290 silly gunzTarPerm extractEntry package.json
+291 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+292 silly gunzTarPerm extractEntry package.json
+293 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+294 silly gunzTarPerm extractEntry package.json
+295 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+296 silly gunzTarPerm extractEntry package.json
+297 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+298 silly gunzTarPerm extractEntry .npmignore
+299 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+300 silly gunzTarPerm extractEntry README.md
+301 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+302 silly gunzTarPerm extractEntry README.md
+303 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+304 silly gunzTarPerm extractEntry .npmignore
+305 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+306 silly gunzTarPerm extractEntry README.md
+307 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+308 silly gunzTarPerm extractEntry README.md
+309 silly gunzTarPerm modified mode [ 'README.md', 493, 511 ]
+310 silly gunzTarPerm extractEntry bin/cli
+311 silly gunzTarPerm modified mode [ 'bin/cli', 493, 511 ]
+312 silly gunzTarPerm extractEntry include_dirs.js
+313 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+314 silly gunzTarPerm extractEntry dist/cli.js
+315 silly gunzTarPerm modified mode [ 'dist/cli.js', 420, 438 ]
+316 silly gunzTarPerm extractEntry dist/player.js
+317 silly gunzTarPerm modified mode [ 'dist/player.js', 420, 438 ]
+318 silly gunzTarPerm extractEntry nan_converters.h
+319 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+320 silly gunzTarPerm extractEntry CHANGELOG.md
+321 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+322 silly gunzTarPerm extractEntry LICENSE.md
+323 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+324 silly gunzTarPerm extractEntry LICENSE
+325 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+326 silly gunzTarPerm extractEntry duplex.js
+327 silly gunzTarPerm modified mode [ 'duplex.js', 420, 438 ]
+328 silly gunzTarPerm extractEntry LICENSE
+329 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+330 silly gunzTarPerm extractEntry index.js
+331 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+332 silly gunzTarPerm extractEntry doc/node_misc.md
+333 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
+334 silly gunzTarPerm extractEntry deps/lame/README
+335 silly gunzTarPerm modified mode [ 'deps/lame/README', 420, 438 ]
+336 silly gunzTarPerm extractEntry deps/lame/LICENSE
+337 silly gunzTarPerm modified mode [ 'deps/lame/LICENSE', 420, 438 ]
+338 silly gunzTarPerm extractEntry writable.js
+339 silly gunzTarPerm modified mode [ 'writable.js', 420, 438 ]
+340 silly gunzTarPerm extractEntry passthrough.js
+341 silly gunzTarPerm modified mode [ 'passthrough.js', 420, 438 ]
+342 silly gunzTarPerm extractEntry dist/utils.js
+343 silly gunzTarPerm modified mode [ 'dist/utils.js', 420, 438 ]
+344 silly gunzTarPerm extractEntry readable.js
+345 silly gunzTarPerm modified mode [ 'readable.js', 420, 438 ]
+346 silly gunzTarPerm extractEntry transform.js
+347 silly gunzTarPerm modified mode [ 'transform.js', 420, 438 ]
+348 silly gunzTarPerm extractEntry doc/asyncworker.md
+349 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
+350 silly gunzTarPerm extractEntry doc/callback.md
+351 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 438 ]
+352 silly gunzTarPerm extractEntry float.patch
+353 silly gunzTarPerm modified mode [ 'float.patch', 420, 438 ]
+354 silly gunzTarPerm extractEntry lib/_stream_duplex.js
+355 silly gunzTarPerm modified mode [ 'lib/_stream_duplex.js', 420, 438 ]
+356 silly gunzTarPerm extractEntry lib/_stream_passthrough.js
+357 silly gunzTarPerm modified mode [ 'lib/_stream_passthrough.js', 420, 438 ]
+358 silly gunzTarPerm extractEntry lib/_stream_readable.js
+359 silly gunzTarPerm modified mode [ 'lib/_stream_readable.js', 420, 438 ]
+360 silly gunzTarPerm extractEntry lib/_stream_transform.js
+361 silly gunzTarPerm modified mode [ 'lib/_stream_transform.js', 420, 438 ]
+362 silly gunzTarPerm extractEntry lib/_stream_writable.js
+363 silly gunzTarPerm modified mode [ 'lib/_stream_writable.js', 420, 438 ]
+364 silly gunzTarPerm extractEntry deps/lame/config.sub
+365 silly gunzTarPerm modified mode [ 'deps/lame/config.sub', 493, 511 ]
+366 silly gunzTarPerm extractEntry dist/cli.js.map
+367 silly gunzTarPerm modified mode [ 'dist/cli.js.map', 420, 438 ]
+368 silly gunzTarPerm extractEntry dist/player.js.map
+369 silly gunzTarPerm modified mode [ 'dist/player.js.map', 420, 438 ]
+370 silly gunzTarPerm extractEntry deps/lame/ChangeLog
+371 silly gunzTarPerm modified mode [ 'deps/lame/ChangeLog', 420, 438 ]
+372 silly gunzTarPerm extractEntry doc/converters.md
+373 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 438 ]
+374 silly gunzTarPerm extractEntry doc/errors.md
+375 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 438 ]
+376 silly gunzTarPerm extractEntry doc/maybe_types.md
+377 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 438 ]
+378 silly gunzTarPerm extractEntry doc/methods.md
+379 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
+380 silly gunzTarPerm extractEntry doc/new.md
+381 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
+382 silly gunzTarPerm extractEntry doc/buffers.md
+383 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+384 silly gunzTarPerm extractEntry doc/object_wrappers.md
+385 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 438 ]
+386 silly gunzTarPerm extractEntry dist/utils.js.map
+387 silly gunzTarPerm modified mode [ 'dist/utils.js.map', 420, 438 ]
+388 silly gunzTarPerm extractEntry libs/cli.js
+389 silly gunzTarPerm modified mode [ 'libs/cli.js', 420, 438 ]
+390 silly gunzTarPerm extractEntry deps/lame/DEFINES
+391 silly gunzTarPerm modified mode [ 'deps/lame/DEFINES', 420, 438 ]
+392 silly gunzTarPerm extractEntry deps/lame/Dll/README
+393 silly gunzTarPerm modified mode [ 'deps/lame/Dll/README', 420, 438 ]
+394 silly gunzTarPerm extractEntry deps/lame/Dll/BladeMP3EncDLL.c
+395 silly gunzTarPerm modified mode [ 'deps/lame/Dll/BladeMP3EncDLL.c', 420, 438 ]
+396 silly gunzTarPerm extractEntry doc/persistent.md
+397 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
+398 silly gunzTarPerm extractEntry doc/scopes.md
+399 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 438 ]
+400 silly gunzTarPerm extractEntry deps/lame/Dll/BladeMP3EncDLL.def
+401 silly gunzTarPerm modified mode [ 'deps/lame/Dll/BladeMP3EncDLL.def', 420, 438 ]
+402 silly gunzTarPerm extractEntry doc/script.md
+403 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 438 ]
+404 silly gunzTarPerm extractEntry doc/string_bytes.md
+405 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 438 ]
+406 silly gunzTarPerm extractEntry deps/lame/Dll/BladeMP3EncDLL.h
+407 silly gunzTarPerm modified mode [ 'deps/lame/Dll/BladeMP3EncDLL.h', 420, 438 ]
+408 silly gunzTarPerm extractEntry deps/lame/Dll/Example.cpp
+409 silly gunzTarPerm modified mode [ 'deps/lame/Dll/Example.cpp', 420, 438 ]
+410 silly gunzTarPerm extractEntry deps/lame/Dll/LameDLLInterface.htm
+411 silly gunzTarPerm modified mode [ 'deps/lame/Dll/LameDLLInterface.htm', 420, 438 ]
+412 silly gunzTarPerm extractEntry deps/lame/Dll/MP3export.pas
+413 silly gunzTarPerm modified mode [ 'deps/lame/Dll/MP3export.pas', 420, 438 ]
+414 silly gunzTarPerm extractEntry libs/player.js
+415 silly gunzTarPerm modified mode [ 'libs/player.js', 420, 438 ]
+416 silly gunzTarPerm extractEntry libs/utils.js
+417 silly gunzTarPerm modified mode [ 'libs/utils.js', 420, 438 ]
+418 silly gunzTarPerm extractEntry doc/v8_internals.md
+419 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 438 ]
+420 silly gunzTarPerm extractEntry doc/v8_misc.md
+421 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 438 ]
+422 silly gunzTarPerm extractEntry deps/lame/Dll/Makefile.am
+423 silly gunzTarPerm modified mode [ 'deps/lame/Dll/Makefile.am', 420, 438 ]
+424 silly gunzTarPerm extractEntry deps/lame/Dll/Makefile.in
+425 silly gunzTarPerm modified mode [ 'deps/lame/Dll/Makefile.in', 420, 438 ]
+426 silly gunzTarPerm extractEntry deps/lame/Dll/Makefile.mingw32
+427 silly gunzTarPerm modified mode [ 'deps/lame/Dll/Makefile.mingw32', 420, 438 ]
+428 silly gunzTarPerm extractEntry deps/lame/HACKING
+429 silly gunzTarPerm modified mode [ 'deps/lame/HACKING', 420, 438 ]
+430 silly gunzTarPerm extractEntry deps/lame/INSTALL
+431 silly gunzTarPerm modified mode [ 'deps/lame/INSTALL', 420, 438 ]
+432 silly gunzTarPerm extractEntry deps/lame/INSTALL.configure
+433 silly gunzTarPerm modified mode [ 'deps/lame/INSTALL.configure', 420, 438 ]
+434 silly gunzTarPerm extractEntry deps/lame/ACM/Makefile.in
+435 silly gunzTarPerm modified mode [ 'deps/lame/ACM/Makefile.in', 420, 438 ]
+436 silly gunzTarPerm extractEntry nan.h
+437 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+438 silly gunzTarPerm extractEntry nan_callbacks.h
+439 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+440 silly gunzTarPerm extractEntry deps/lame/ACM/ACM.cpp
+441 silly gunzTarPerm modified mode [ 'deps/lame/ACM/ACM.cpp', 420, 438 ]
+442 silly gunzTarPerm extractEntry deps/lame/ACM/ACMStream.cpp
+443 silly gunzTarPerm modified mode [ 'deps/lame/ACM/ACMStream.cpp', 420, 438 ]
+444 silly gunzTarPerm extractEntry deps/lame/ACM/ACMStream.h
+445 silly gunzTarPerm modified mode [ 'deps/lame/ACM/ACMStream.h', 420, 438 ]
+446 silly gunzTarPerm extractEntry deps/lame/ACM/ADbg/ADbg.cpp
+447 silly gunzTarPerm modified mode [ 'deps/lame/ACM/ADbg/ADbg.cpp', 420, 438 ]
+448 silly gunzTarPerm extractEntry deps/lame/ACM/ADbg/ADbg.h
+449 silly gunzTarPerm modified mode [ 'deps/lame/ACM/ADbg/ADbg.h', 420, 438 ]
+450 silly gunzTarPerm extractEntry deps/lame/ACM/ADbg/Makefile.am
+451 silly gunzTarPerm modified mode [ 'deps/lame/ACM/ADbg/Makefile.am', 420, 438 ]
+452 silly gunzTarPerm extractEntry deps/lame/ACM/ADbg/Makefile.in
+453 silly gunzTarPerm modified mode [ 'deps/lame/ACM/ADbg/Makefile.in', 420, 438 ]
+454 silly gunzTarPerm extractEntry deps/lame/ACM/AEncodeProperties.cpp
+455 silly gunzTarPerm modified mode [ 'deps/lame/ACM/AEncodeProperties.cpp', 420, 438 ]
+456 silly gunzTarPerm extractEntry deps/lame/ACM/AEncodeProperties.h
+457 silly gunzTarPerm modified mode [ 'deps/lame/ACM/AEncodeProperties.h', 420, 438 ]
+458 silly gunzTarPerm extractEntry deps/lame/ACM/DecodeStream.cpp
+459 silly gunzTarPerm modified mode [ 'deps/lame/ACM/DecodeStream.cpp', 420, 438 ]
+460 silly gunzTarPerm extractEntry deps/lame/ACM/DecodeStream.h
+461 silly gunzTarPerm modified mode [ 'deps/lame/ACM/DecodeStream.h', 420, 438 ]
+462 silly gunzTarPerm extractEntry deps/lame/ACM/LameACM.inf
+463 silly gunzTarPerm modified mode [ 'deps/lame/ACM/LameACM.inf', 420, 438 ]
+464 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+465 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+466 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+467 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+468 silly gunzTarPerm extractEntry deps/lame/ACM/Makefile.am
+469 silly gunzTarPerm modified mode [ 'deps/lame/ACM/Makefile.am', 420, 438 ]
+470 silly gunzTarPerm extractEntry deps/lame/ACM/ACM.h
+471 silly gunzTarPerm modified mode [ 'deps/lame/ACM/ACM.h', 420, 438 ]
+472 silly gunzTarPerm extractEntry deps/lame/ACM/TODO
+473 silly gunzTarPerm modified mode [ 'deps/lame/ACM/TODO', 420, 438 ]
+474 silly gunzTarPerm extractEntry deps/lame/ACM/acm.rc
+475 silly gunzTarPerm modified mode [ 'deps/lame/ACM/acm.rc', 420, 438 ]
+476 silly gunzTarPerm extractEntry deps/lame/ACM/adebug.h
+477 silly gunzTarPerm modified mode [ 'deps/lame/ACM/adebug.h', 420, 438 ]
+478 silly gunzTarPerm extractEntry deps/lame/ACM/ddk/Makefile.am
+479 silly gunzTarPerm modified mode [ 'deps/lame/ACM/ddk/Makefile.am', 420, 438 ]
+480 silly gunzTarPerm extractEntry deps/lame/ACM/ddk/Makefile.in
+481 silly gunzTarPerm modified mode [ 'deps/lame/ACM/ddk/Makefile.in', 420, 438 ]
+482 silly gunzTarPerm extractEntry deps/lame/ACM/ddk/msacmdrv.h
+483 silly gunzTarPerm modified mode [ 'deps/lame/ACM/ddk/msacmdrv.h', 420, 438 ]
+484 silly gunzTarPerm extractEntry deps/lame/ACM/lame.ico
+485 silly gunzTarPerm modified mode [ 'deps/lame/ACM/lame.ico', 420, 438 ]
+486 silly gunzTarPerm extractEntry deps/lame/ACM/lameACM.def
+487 silly gunzTarPerm modified mode [ 'deps/lame/ACM/lameACM.def', 420, 438 ]
+488 silly gunzTarPerm extractEntry deps/lame/ACM/lame_acm.xml
+489 silly gunzTarPerm modified mode [ 'deps/lame/ACM/lame_acm.xml', 420, 438 ]
+490 silly gunzTarPerm extractEntry deps/lame/ACM/main.cpp
+491 silly gunzTarPerm modified mode [ 'deps/lame/ACM/main.cpp', 420, 438 ]
+492 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+493 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+494 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+495 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+496 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+497 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+498 silly gunzTarPerm extractEntry deps/lame/ACM/readme.txt
+499 silly gunzTarPerm modified mode [ 'deps/lame/ACM/readme.txt', 420, 438 ]
+500 silly gunzTarPerm extractEntry deps/lame/ACM/resource.h
+501 silly gunzTarPerm modified mode [ 'deps/lame/ACM/resource.h', 420, 438 ]
+502 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+503 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+504 silly gunzTarPerm extractEntry deps/lame/ACM/tinyxml/makedistwin.bat
+505 silly gunzTarPerm modified mode [ 'deps/lame/ACM/tinyxml/makedistwin.bat', 493, 511 ]
+506 silly gunzTarPerm extractEntry deps/lame/ACM/tinyxml/Makefile.am
+507 silly gunzTarPerm modified mode [ 'deps/lame/ACM/tinyxml/Makefile.am', 420, 438 ]
+508 silly gunzTarPerm extractEntry deps/lame/ACM/tinyxml/Makefile.tinyxml
+509 silly gunzTarPerm modified mode [ 'deps/lame/ACM/tinyxml/Makefile.tinyxml', 420, 438 ]
+510 silly gunzTarPerm extractEntry deps/lame/ACM/tinyxml/changes.txt
+511 silly gunzTarPerm modified mode [ 'deps/lame/ACM/tinyxml/changes.txt', 420, 438 ]
+512 silly gunzTarPerm extractEntry deps/lame/ACM/tinyxml/dox
+513 silly gunzTarPerm modified mode [ 'deps/lame/ACM/tinyxml/dox', 420, 438 ]
+514 silly gunzTarPerm extractEntry deps/lame/ACM/tinyxml/makedistlinux
+515 silly gunzTarPerm modified mode [ 'deps/lame/ACM/tinyxml/makedistlinux', 420, 438 ]
+516 silly gunzTarPerm extractEntry deps/lame/ACM/tinyxml/Makefile.in
+517 silly gunzTarPerm modified mode [ 'deps/lame/ACM/tinyxml/Makefile.in', 420, 438 ]
+518 silly gunzTarPerm extractEntry deps/lame/ACM/tinyxml/readme.txt
+519 silly gunzTarPerm modified mode [ 'deps/lame/ACM/tinyxml/readme.txt', 420, 438 ]
+520 silly gunzTarPerm extractEntry deps/lame/ACM/tinyxml/tinyxml.cpp
+521 silly gunzTarPerm modified mode [ 'deps/lame/ACM/tinyxml/tinyxml.cpp', 420, 438 ]
+522 silly gunzTarPerm extractEntry deps/lame/ACM/tinyxml/tinyxml.h
+523 silly gunzTarPerm modified mode [ 'deps/lame/ACM/tinyxml/tinyxml.h', 420, 438 ]
+524 silly gunzTarPerm extractEntry deps/lame/ACM/tinyxml/tinyxmlerror.cpp
+525 silly gunzTarPerm modified mode [ 'deps/lame/ACM/tinyxml/tinyxmlerror.cpp', 420, 438 ]
+526 silly gunzTarPerm extractEntry deps/lame/ACM/tinyxml/tinyxmlparser.cpp
+527 silly gunzTarPerm modified mode [ 'deps/lame/ACM/tinyxml/tinyxmlparser.cpp', 420, 438 ]
+528 silly gunzTarPerm extractEntry deps/lame/ACM/tinyxml/xmltest.cpp
+529 silly gunzTarPerm modified mode [ 'deps/lame/ACM/tinyxml/xmltest.cpp', 420, 438 ]
+530 silly gunzTarPerm extractEntry deps/lame/Makefile.MSVC
+531 silly gunzTarPerm modified mode [ 'deps/lame/Makefile.MSVC', 420, 438 ]
+532 silly gunzTarPerm extractEntry deps/lame/Makefile.am
+533 silly gunzTarPerm modified mode [ 'deps/lame/Makefile.am', 420, 438 ]
+534 silly gunzTarPerm extractEntry deps/lame/Makefile.am.global
+535 silly gunzTarPerm modified mode [ 'deps/lame/Makefile.am.global', 420, 438 ]
+536 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+537 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 438 ]
+538 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+539 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 438 ]
+540 silly gunzTarPerm extractEntry nan_new.h
+541 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+542 silly gunzTarPerm extractEntry deps/lame/Makefile.in
+543 silly gunzTarPerm modified mode [ 'deps/lame/Makefile.in', 420, 438 ]
+544 silly gunzTarPerm extractEntry nan_object_wrap.h
+545 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 438 ]
+546 silly gunzTarPerm extractEntry deps/lame/Makefile.unix
+547 silly gunzTarPerm modified mode [ 'deps/lame/Makefile.unix', 420, 438 ]
+548 silly gunzTarPerm extractEntry deps/lame/COPYING
+549 silly gunzTarPerm modified mode [ 'deps/lame/COPYING', 420, 438 ]
+550 silly gunzTarPerm extractEntry deps/lame/README.WINGTK
+551 silly gunzTarPerm modified mode [ 'deps/lame/README.WINGTK', 420, 438 ]
+552 silly gunzTarPerm extractEntry deps/lame/STYLEGUIDE
+553 silly gunzTarPerm modified mode [ 'deps/lame/STYLEGUIDE', 420, 438 ]
+554 silly gunzTarPerm extractEntry deps/lame/TODO
+555 silly gunzTarPerm modified mode [ 'deps/lame/TODO', 420, 438 ]
+556 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+557 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 438 ]
+558 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+559 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 438 ]
+560 silly gunzTarPerm extractEntry deps/lame/USAGE
+561 silly gunzTarPerm modified mode [ 'deps/lame/USAGE', 420, 438 ]
+562 silly gunzTarPerm extractEntry deps/lame/acinclude.m4
+563 silly gunzTarPerm modified mode [ 'deps/lame/acinclude.m4', 420, 438 ]
+564 silly gunzTarPerm extractEntry deps/lame/aclocal.m4
+565 silly gunzTarPerm modified mode [ 'deps/lame/aclocal.m4', 420, 438 ]
+566 silly gunzTarPerm extractEntry deps/lame/config/README
+567 silly gunzTarPerm modified mode [ 'deps/lame/config/README', 420, 438 ]
+568 silly gunzTarPerm extractEntry nan_private.h
+569 silly gunzTarPerm modified mode [ 'nan_private.h', 436, 438 ]
+570 silly gunzTarPerm extractEntry nan_string_bytes.h
+571 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+572 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+573 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 438 ]
+574 silly gunzTarPerm extractEntry nan_weak.h
+575 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 438 ]
+576 silly gunzTarPerm extractEntry deps/lame/config/freebsd/x64/config.h
+577 silly gunzTarPerm modified mode [ 'deps/lame/config/freebsd/x64/config.h', 420, 438 ]
+578 silly gunzTarPerm extractEntry deps/lame/config/linux/arm/config.h
+579 silly gunzTarPerm modified mode [ 'deps/lame/config/linux/arm/config.h', 420, 438 ]
+580 silly gunzTarPerm extractEntry deps/lame/config/linux/ia32/config.h
+581 silly gunzTarPerm modified mode [ 'deps/lame/config/linux/ia32/config.h', 420, 438 ]
+582 silly gunzTarPerm extractEntry deps/lame/config/linux/x64/config.h
+583 silly gunzTarPerm modified mode [ 'deps/lame/config/linux/x64/config.h', 420, 438 ]
+584 silly gentlyRm C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\player-67cb1b3f\node_modules is being purged
+585 verbose gentlyRm don't care about contents; nuking C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\player-67cb1b3f\node_modules
+586 silly gunzTarPerm extractEntry deps/lame/config/mac/ia32/config.h
+587 silly gunzTarPerm modified mode [ 'deps/lame/config/mac/ia32/config.h', 420, 438 ]
+588 silly gunzTarPerm extractEntry deps/lame/config/mac/x64/config.h
+589 silly gunzTarPerm modified mode [ 'deps/lame/config/mac/x64/config.h', 420, 438 ]
+590 silly gunzTarPerm extractEntry tools/package.json
+591 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 438 ]
+592 silly gunzTarPerm extractEntry tools/README.md
+593 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
+594 silly gentlyRm C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\readable-stream-124b6779\node_modules is being purged
+595 verbose gentlyRm don't care about contents; nuking C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\readable-stream-124b6779\node_modules
+596 silly gunzTarPerm extractEntry deps/lame/config/solaris/ia32/config.h
+597 silly gunzTarPerm modified mode [ 'deps/lame/config/solaris/ia32/config.h', 420, 438 ]
+598 silly gunzTarPerm extractEntry deps/lame/config/solaris/x64/config.h
+599 silly gunzTarPerm modified mode [ 'deps/lame/config/solaris/x64/config.h', 420, 438 ]
+600 silly gunzTarPerm extractEntry tools/1to2.js
+601 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 511 ]
+602 silly gunzTarPerm extractEntry deps/lame/config/win/ia32/config.h
+603 silly gunzTarPerm modified mode [ 'deps/lame/config/win/ia32/config.h', 420, 438 ]
+604 silly gunzTarPerm extractEntry deps/lame/config/win/x64/config.h
+605 silly gunzTarPerm modified mode [ 'deps/lame/config/win/x64/config.h', 420, 438 ]
+606 silly gunzTarPerm extractEntry deps/lame/config.guess
+607 silly gunzTarPerm modified mode [ 'deps/lame/config.guess', 493, 511 ]
+608 silly gunzTarPerm extractEntry deps/lame/config.h.in
+609 silly gunzTarPerm modified mode [ 'deps/lame/config.h.in', 420, 438 ]
+610 silly gunzTarPerm extractEntry deps/lame/config.rpath
+611 silly gunzTarPerm modified mode [ 'deps/lame/config.rpath', 493, 511 ]
+612 silly gunzTarPerm extractEntry deps/lame/API
+613 silly gunzTarPerm modified mode [ 'deps/lame/API', 420, 438 ]
+614 silly gunzTarPerm extractEntry deps/lame/configMS.h
+615 silly gunzTarPerm modified mode [ 'deps/lame/configMS.h', 420, 438 ]
+616 silly gunzTarPerm extractEntry deps/lame/configure
+617 silly gunzTarPerm modified mode [ 'deps/lame/configure', 493, 511 ]
+618 silly gunzTarPerm extractEntry deps/lame/configure.in
+619 silly gunzTarPerm modified mode [ 'deps/lame/configure.in', 420, 438 ]
+620 silly gunzTarPerm extractEntry deps/lame/debian/lame.docs
+621 silly gunzTarPerm modified mode [ 'deps/lame/debian/lame.docs', 420, 438 ]
+622 silly gunzTarPerm extractEntry deps/lame/debian/Makefile.am
+623 silly gunzTarPerm modified mode [ 'deps/lame/debian/Makefile.am', 420, 438 ]
+624 silly gunzTarPerm extractEntry deps/lame/debian/changelog
+625 silly gunzTarPerm modified mode [ 'deps/lame/debian/changelog', 420, 438 ]
+626 silly gunzTarPerm extractEntry deps/lame/debian/compat
+627 silly gunzTarPerm modified mode [ 'deps/lame/debian/compat', 420, 438 ]
+628 silly gunzTarPerm extractEntry deps/lame/debian/control
+629 silly gunzTarPerm modified mode [ 'deps/lame/debian/control', 420, 438 ]
+630 silly gunzTarPerm extractEntry deps/lame/debian/copyright
+631 silly gunzTarPerm modified mode [ 'deps/lame/debian/copyright', 420, 438 ]
+632 silly gunzTarPerm extractEntry deps/lame/debian/Makefile.in
+633 silly gunzTarPerm modified mode [ 'deps/lame/debian/Makefile.in', 420, 438 ]
+634 silly gunzTarPerm extractEntry deps/lame/debian/lame.install
+635 silly gunzTarPerm modified mode [ 'deps/lame/debian/lame.install', 420, 438 ]
+636 silly gunzTarPerm extractEntry deps/lame/debian/lame.manpages
+637 silly gunzTarPerm modified mode [ 'deps/lame/debian/lame.manpages', 420, 438 ]
+638 silly gunzTarPerm extractEntry deps/lame/debian/libmp3lame-dev.install
+639 silly gunzTarPerm modified mode [ 'deps/lame/debian/libmp3lame-dev.install', 420, 438 ]
+640 silly gunzTarPerm extractEntry deps/lame/debian/libmp3lame0.install
+641 silly gunzTarPerm modified mode [ 'deps/lame/debian/libmp3lame0.install', 420, 438 ]
+642 silly gunzTarPerm extractEntry deps/lame/debian/rules
+643 silly gunzTarPerm modified mode [ 'deps/lame/debian/rules', 493, 511 ]
+644 silly gunzTarPerm extractEntry deps/lame/debian/watch
+645 silly gunzTarPerm modified mode [ 'deps/lame/debian/watch', 420, 438 ]
+646 silly gunzTarPerm extractEntry deps/lame/depcomp
+647 silly gunzTarPerm modified mode [ 'deps/lame/depcomp', 493, 511 ]
+648 silly gunzTarPerm extractEntry deps/lame/doc/Makefile.am
+649 silly gunzTarPerm modified mode [ 'deps/lame/doc/Makefile.am', 420, 438 ]
+650 silly gunzTarPerm extractEntry deps/lame/doc/Makefile.in
+651 silly gunzTarPerm modified mode [ 'deps/lame/doc/Makefile.in', 420, 438 ]
+652 silly gunzTarPerm extractEntry deps/lame/doc/html/history.html
+653 silly gunzTarPerm modified mode [ 'deps/lame/doc/html/history.html', 420, 438 ]
+654 silly gunzTarPerm extractEntry deps/lame/doc/html/Makefile.am
+655 silly gunzTarPerm modified mode [ 'deps/lame/doc/html/Makefile.am', 420, 438 ]
+656 silly gunzTarPerm extractEntry deps/lame/doc/html/about.html
+657 silly gunzTarPerm modified mode [ 'deps/lame/doc/html/about.html', 420, 438 ]
+658 silly gunzTarPerm extractEntry deps/lame/doc/html/abr.html
+659 silly gunzTarPerm modified mode [ 'deps/lame/doc/html/abr.html', 420, 438 ]
+660 silly gunzTarPerm extractEntry deps/lame/doc/html/cbr.html
+661 silly gunzTarPerm modified mode [ 'deps/lame/doc/html/cbr.html', 420, 438 ]
+662 silly gunzTarPerm extractEntry deps/lame/doc/html/contact.html
+663 silly gunzTarPerm modified mode [ 'deps/lame/doc/html/contact.html', 420, 438 ]
+664 silly gunzTarPerm extractEntry deps/lame/doc/html/contributors.html
+665 silly gunzTarPerm modified mode [ 'deps/lame/doc/html/contributors.html', 420, 438 ]
+666 silly gunzTarPerm extractEntry deps/lame/doc/html/detailed.html
+667 silly gunzTarPerm modified mode [ 'deps/lame/doc/html/detailed.html', 420, 438 ]
+668 silly gunzTarPerm extractEntry deps/lame/doc/html/Makefile.in
+669 silly gunzTarPerm modified mode [ 'deps/lame/doc/html/Makefile.in', 420, 438 ]
+670 silly gunzTarPerm extractEntry deps/lame/doc/html/index.html
+671 silly gunzTarPerm modified mode [ 'deps/lame/doc/html/index.html', 420, 438 ]
+672 silly gunzTarPerm extractEntry deps/lame/doc/html/introduction.html
+673 silly gunzTarPerm modified mode [ 'deps/lame/doc/html/introduction.html', 420, 438 ]
+674 silly gunzTarPerm extractEntry deps/lame/doc/html/links.html
+675 silly gunzTarPerm modified mode [ 'deps/lame/doc/html/links.html', 420, 438 ]
+676 silly gunzTarPerm extractEntry deps/lame/doc/html/list.html
+677 silly gunzTarPerm modified mode [ 'deps/lame/doc/html/list.html', 420, 438 ]
+678 silly gunzTarPerm extractEntry deps/lame/doc/html/ms_stereo.html
+679 silly gunzTarPerm modified mode [ 'deps/lame/doc/html/ms_stereo.html', 420, 438 ]
+680 silly gunzTarPerm extractEntry deps/lame/doc/html/usage.html
+681 silly gunzTarPerm modified mode [ 'deps/lame/doc/html/usage.html', 420, 438 ]
+682 silly gunzTarPerm extractEntry deps/lame/doc/html/vbr.html
+683 silly gunzTarPerm modified mode [ 'deps/lame/doc/html/vbr.html', 420, 438 ]
+684 silly gunzTarPerm extractEntry deps/lame/doc/man/Makefile.am
+685 silly gunzTarPerm modified mode [ 'deps/lame/doc/man/Makefile.am', 420, 438 ]
+686 silly gunzTarPerm extractEntry deps/lame/doc/man/Makefile.in
+687 silly gunzTarPerm modified mode [ 'deps/lame/doc/man/Makefile.in', 420, 438 ]
+688 silly gunzTarPerm extractEntry deps/lame/doc/man/lame.1
+689 silly gunzTarPerm modified mode [ 'deps/lame/doc/man/lame.1', 420, 438 ]
+690 silly gunzTarPerm extractEntry deps/lame/dshow/README
+691 silly gunzTarPerm modified mode [ 'deps/lame/dshow/README', 420, 438 ]
+692 silly gunzTarPerm extractEntry deps/lame/dshow/PropPage_adv.h
+693 silly gunzTarPerm modified mode [ 'deps/lame/dshow/PropPage_adv.h', 420, 438 ]
+694 silly gunzTarPerm extractEntry deps/lame/dshow/Makefile.am
+695 silly gunzTarPerm modified mode [ 'deps/lame/dshow/Makefile.am', 420, 438 ]
+696 silly gunzTarPerm extractEntry deps/lame/dshow/Makefile.in
+697 silly gunzTarPerm modified mode [ 'deps/lame/dshow/Makefile.in', 420, 438 ]
+698 silly gunzTarPerm extractEntry deps/lame/dshow/Mpegac.cpp
+699 silly gunzTarPerm modified mode [ 'deps/lame/dshow/Mpegac.cpp', 420, 438 ]
+700 silly gunzTarPerm extractEntry deps/lame/dshow/Mpegac.def
+701 silly gunzTarPerm modified mode [ 'deps/lame/dshow/Mpegac.def', 420, 438 ]
+702 silly gentlyRm C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\nan-6353377c\node_modules is being purged
+703 verbose gentlyRm don't care about contents; nuking C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\nan-6353377c\node_modules
+704 silly gunzTarPerm extractEntry deps/lame/dshow/Mpegac.h
+705 silly gunzTarPerm modified mode [ 'deps/lame/dshow/Mpegac.h', 420, 438 ]
+706 silly gunzTarPerm extractEntry deps/lame/dshow/PropPage.cpp
+707 silly gunzTarPerm modified mode [ 'deps/lame/dshow/PropPage.cpp', 420, 438 ]
+708 silly gunzTarPerm extractEntry deps/lame/dshow/PropPage.h
+709 silly gunzTarPerm modified mode [ 'deps/lame/dshow/PropPage.h', 420, 438 ]
+710 silly gunzTarPerm extractEntry deps/lame/dshow/PropPage_adv.cpp
+711 silly gunzTarPerm modified mode [ 'deps/lame/dshow/PropPage_adv.cpp', 420, 438 ]
+712 silly gunzTarPerm extractEntry deps/lame/dshow/Encoder.h
+713 silly gunzTarPerm modified mode [ 'deps/lame/dshow/Encoder.h', 420, 438 ]
+714 silly gunzTarPerm extractEntry deps/lame/dshow/Property.rc
+715 silly gunzTarPerm modified mode [ 'deps/lame/dshow/Property.rc', 420, 438 ]
+716 silly gunzTarPerm extractEntry deps/lame/dshow/Encoder.cpp
+717 silly gunzTarPerm modified mode [ 'deps/lame/dshow/Encoder.cpp', 420, 438 ]
+718 silly gunzTarPerm extractEntry deps/lame/dshow/REG.CPP
+719 silly gunzTarPerm modified mode [ 'deps/lame/dshow/REG.CPP', 420, 438 ]
+720 silly gunzTarPerm extractEntry deps/lame/dshow/REG.H
+721 silly gunzTarPerm modified mode [ 'deps/lame/dshow/REG.H', 420, 438 ]
+722 silly gunzTarPerm extractEntry deps/lame/dshow/UIDS.H
+723 silly gunzTarPerm modified mode [ 'deps/lame/dshow/UIDS.H', 420, 438 ]
+724 silly gunzTarPerm extractEntry deps/lame/dshow/aboutprp.cpp
+725 silly gunzTarPerm modified mode [ 'deps/lame/dshow/aboutprp.cpp', 420, 438 ]
+726 silly gunzTarPerm extractEntry deps/lame/dshow/aboutprp.h
+727 silly gunzTarPerm modified mode [ 'deps/lame/dshow/aboutprp.h', 420, 438 ]
+728 silly gunzTarPerm extractEntry deps/lame/dshow/elogo.ico
+729 silly gunzTarPerm modified mode [ 'deps/lame/dshow/elogo.ico', 420, 438 ]
+730 silly gunzTarPerm extractEntry deps/lame/dshow/iaudioprops.h
+731 silly gunzTarPerm modified mode [ 'deps/lame/dshow/iaudioprops.h', 420, 438 ]
+732 silly gunzTarPerm extractEntry deps/lame/dshow/resource.h
+733 silly gunzTarPerm modified mode [ 'deps/lame/dshow/resource.h', 420, 438 ]
+734 silly gunzTarPerm extractEntry deps/lame/frontend/gtkanal.h
+735 silly gunzTarPerm modified mode [ 'deps/lame/frontend/gtkanal.h', 420, 438 ]
+736 silly gunzTarPerm extractEntry deps/lame/frontend/Makefile.am
+737 silly gunzTarPerm modified mode [ 'deps/lame/frontend/Makefile.am', 420, 438 ]
+738 silly gunzTarPerm extractEntry deps/lame/frontend/amiga_mpega.c
+739 silly gunzTarPerm modified mode [ 'deps/lame/frontend/amiga_mpega.c', 420, 438 ]
+740 silly gunzTarPerm extractEntry deps/lame/frontend/brhist.c
+741 silly gunzTarPerm modified mode [ 'deps/lame/frontend/brhist.c', 420, 438 ]
+742 silly gunzTarPerm extractEntry deps/lame/frontend/brhist.h
+743 silly gunzTarPerm modified mode [ 'deps/lame/frontend/brhist.h', 420, 438 ]
+744 silly gunzTarPerm extractEntry deps/lame/frontend/console.c
+745 silly gunzTarPerm modified mode [ 'deps/lame/frontend/console.c', 420, 438 ]
+746 silly gunzTarPerm extractEntry deps/lame/frontend/console.h
+747 silly gunzTarPerm modified mode [ 'deps/lame/frontend/console.h', 420, 438 ]
+748 silly gunzTarPerm extractEntry deps/lame/frontend/depcomp
+749 silly gunzTarPerm modified mode [ 'deps/lame/frontend/depcomp', 493, 511 ]
+750 silly gunzTarPerm extractEntry deps/lame/frontend/get_audio.c
+751 silly gunzTarPerm modified mode [ 'deps/lame/frontend/get_audio.c', 420, 438 ]
+752 silly gunzTarPerm extractEntry deps/lame/frontend/get_audio.h
+753 silly gunzTarPerm modified mode [ 'deps/lame/frontend/get_audio.h', 420, 438 ]
+754 silly gunzTarPerm extractEntry deps/lame/frontend/gpkplotting.c
+755 silly gunzTarPerm modified mode [ 'deps/lame/frontend/gpkplotting.c', 420, 438 ]
+756 silly gunzTarPerm extractEntry deps/lame/frontend/gpkplotting.h
+757 silly gunzTarPerm modified mode [ 'deps/lame/frontend/gpkplotting.h', 420, 438 ]
+758 silly gunzTarPerm extractEntry deps/lame/frontend/gtkanal.c
+759 silly gunzTarPerm modified mode [ 'deps/lame/frontend/gtkanal.c', 420, 438 ]
+760 silly gunzTarPerm extractEntry deps/lame/frontend/Makefile.in
+761 silly gunzTarPerm modified mode [ 'deps/lame/frontend/Makefile.in', 420, 438 ]
+762 silly gunzTarPerm extractEntry deps/lame/frontend/lame_main.c
+763 silly gunzTarPerm modified mode [ 'deps/lame/frontend/lame_main.c', 420, 438 ]
+764 silly gunzTarPerm extractEntry deps/lame/frontend/lametime.c
+765 silly gunzTarPerm modified mode [ 'deps/lame/frontend/lametime.c', 420, 438 ]
+766 silly gunzTarPerm extractEntry deps/lame/frontend/lametime.h
+767 silly gunzTarPerm modified mode [ 'deps/lame/frontend/lametime.h', 420, 438 ]
+768 silly gunzTarPerm extractEntry deps/lame/frontend/main.c
+769 silly gunzTarPerm modified mode [ 'deps/lame/frontend/main.c', 420, 438 ]
+770 silly gunzTarPerm extractEntry deps/lame/frontend/main.h
+771 silly gunzTarPerm modified mode [ 'deps/lame/frontend/main.h', 420, 438 ]
+772 silly gunzTarPerm extractEntry deps/lame/frontend/mp3rtp.c
+773 silly gunzTarPerm modified mode [ 'deps/lame/frontend/mp3rtp.c', 420, 438 ]
+774 silly gunzTarPerm extractEntry deps/lame/frontend/mp3x.c
+775 silly gunzTarPerm modified mode [ 'deps/lame/frontend/mp3x.c', 420, 438 ]
+776 silly gunzTarPerm extractEntry deps/lame/frontend/parse.c
+777 silly gunzTarPerm modified mode [ 'deps/lame/frontend/parse.c', 420, 438 ]
+778 silly gunzTarPerm extractEntry deps/lame/frontend/parse.h
+779 silly gunzTarPerm modified mode [ 'deps/lame/frontend/parse.h', 420, 438 ]
+780 silly gunzTarPerm extractEntry deps/lame/frontend/rtp.c
+781 silly gunzTarPerm modified mode [ 'deps/lame/frontend/rtp.c', 420, 438 ]
+782 silly gunzTarPerm extractEntry deps/lame/frontend/rtp.h
+783 silly gunzTarPerm modified mode [ 'deps/lame/frontend/rtp.h', 420, 438 ]
+784 silly gunzTarPerm extractEntry deps/lame/frontend/timestatus.c
+785 silly gunzTarPerm modified mode [ 'deps/lame/frontend/timestatus.c', 420, 438 ]
+786 silly gunzTarPerm extractEntry deps/lame/frontend/timestatus.h
+787 silly gunzTarPerm modified mode [ 'deps/lame/frontend/timestatus.h', 420, 438 ]
+788 silly gunzTarPerm extractEntry deps/lame/include/Makefile.am
+789 silly gunzTarPerm modified mode [ 'deps/lame/include/Makefile.am', 420, 438 ]
+790 silly gunzTarPerm extractEntry deps/lame/include/Makefile.in
+791 silly gunzTarPerm modified mode [ 'deps/lame/include/Makefile.in', 420, 438 ]
+792 silly gunzTarPerm extractEntry deps/lame/include/lame.def
+793 silly gunzTarPerm modified mode [ 'deps/lame/include/lame.def', 420, 438 ]
+794 silly gunzTarPerm extractEntry deps/lame/include/lame.h
+795 silly gunzTarPerm modified mode [ 'deps/lame/include/lame.h', 420, 438 ]
+796 silly gunzTarPerm extractEntry deps/lame/include/libmp3lame.sym
+797 silly gunzTarPerm modified mode [ 'deps/lame/include/libmp3lame.sym', 420, 438 ]
+798 silly gunzTarPerm extractEntry deps/lame/install-sh
+799 silly gunzTarPerm modified mode [ 'deps/lame/install-sh', 493, 511 ]
+800 silly gunzTarPerm extractEntry deps/lame/lame.bat
+801 silly gunzTarPerm modified mode [ 'deps/lame/lame.bat', 493, 511 ]
+802 silly gunzTarPerm extractEntry deps/lame/lame.spec
+803 silly gunzTarPerm modified mode [ 'deps/lame/lame.spec', 420, 438 ]
+804 silly gunzTarPerm extractEntry deps/lame/lame.spec.in
+805 silly gunzTarPerm modified mode [ 'deps/lame/lame.spec.in', 420, 438 ]
+806 silly gunzTarPerm extractEntry deps/lame/libmp3lame/mpglib_interface.c
+807 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/mpglib_interface.c', 420, 438 ]
+808 silly gunzTarPerm extractEntry deps/lame/libmp3lame/Makefile.am
+809 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/Makefile.am', 420, 438 ]
+810 silly gunzTarPerm extractEntry deps/lame/libmp3lame/VbrTag.c
+811 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/VbrTag.c', 420, 438 ]
+812 silly gunzTarPerm extractEntry deps/lame/libmp3lame/VbrTag.h
+813 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/VbrTag.h', 420, 438 ]
+814 silly gunzTarPerm extractEntry deps/lame/libmp3lame/bitstream.c
+815 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/bitstream.c', 420, 438 ]
+816 silly gunzTarPerm extractEntry deps/lame/libmp3lame/bitstream.h
+817 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/bitstream.h', 420, 438 ]
+818 silly gunzTarPerm extractEntry deps/lame/libmp3lame/depcomp
+819 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/depcomp', 493, 511 ]
+820 silly gunzTarPerm extractEntry deps/lame/libmp3lame/encoder.c
+821 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/encoder.c', 420, 438 ]
+822 silly gunzTarPerm extractEntry deps/lame/libmp3lame/encoder.h
+823 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/encoder.h', 420, 438 ]
+824 silly gunzTarPerm extractEntry deps/lame/libmp3lame/fft.c
+825 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/fft.c', 420, 438 ]
+826 silly gunzTarPerm extractEntry deps/lame/libmp3lame/fft.h
+827 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/fft.h', 420, 438 ]
+828 silly gunzTarPerm extractEntry deps/lame/libmp3lame/gain_analysis.c
+829 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/gain_analysis.c', 420, 438 ]
+830 silly gunzTarPerm extractEntry deps/lame/libmp3lame/gain_analysis.h
+831 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/gain_analysis.h', 420, 438 ]
+832 silly gunzTarPerm extractEntry deps/lame/libmp3lame/i386/fft3dn.nas
+833 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/i386/fft3dn.nas', 420, 438 ]
+834 silly gunzTarPerm extractEntry deps/lame/libmp3lame/i386/Makefile.am
+835 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/i386/Makefile.am', 420, 438 ]
+836 silly gunzTarPerm extractEntry deps/lame/libmp3lame/i386/choose_table.nas
+837 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/i386/choose_table.nas', 420, 438 ]
+838 silly gunzTarPerm extractEntry deps/lame/libmp3lame/i386/cpu_feat.nas
+839 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/i386/cpu_feat.nas', 420, 438 ]
+840 silly gunzTarPerm extractEntry deps/lame/libmp3lame/i386/fft.nas
+841 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/i386/fft.nas', 420, 438 ]
+842 silly gunzTarPerm extractEntry deps/lame/libmp3lame/i386/Makefile.in
+843 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/i386/Makefile.in', 420, 438 ]
+844 silly gunzTarPerm extractEntry deps/lame/libmp3lame/i386/fftfpu.nas
+845 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/i386/fftfpu.nas', 420, 438 ]
+846 silly gunzTarPerm extractEntry deps/lame/libmp3lame/i386/fftsse.nas
+847 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/i386/fftsse.nas', 420, 438 ]
+848 silly gunzTarPerm extractEntry deps/lame/libmp3lame/i386/ffttbl.nas
+849 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/i386/ffttbl.nas', 420, 438 ]
+850 silly gunzTarPerm extractEntry deps/lame/libmp3lame/i386/nasm.h
+851 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/i386/nasm.h', 420, 438 ]
+852 silly gunzTarPerm extractEntry deps/lame/libmp3lame/i386/scalar.nas
+853 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/i386/scalar.nas', 420, 438 ]
+854 silly gunzTarPerm extractEntry deps/lame/libmp3lame/id3tag.c
+855 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/id3tag.c', 420, 438 ]
+856 silly gunzTarPerm extractEntry deps/lame/libmp3lame/id3tag.h
+857 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/id3tag.h', 420, 438 ]
+858 silly gunzTarPerm extractEntry deps/lame/libmp3lame/l3side.h
+859 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/l3side.h', 420, 438 ]
+860 silly gunzTarPerm extractEntry deps/lame/libmp3lame/lame-analysis.h
+861 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/lame-analysis.h', 420, 438 ]
+862 silly gunzTarPerm extractEntry deps/lame/libmp3lame/lame.c
+863 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/lame.c', 420, 438 ]
+864 silly gunzTarPerm extractEntry deps/lame/libmp3lame/lame.rc
+865 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/lame.rc', 420, 438 ]
+866 silly gunzTarPerm extractEntry deps/lame/libmp3lame/lame_global_flags.h
+867 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/lame_global_flags.h', 420, 438 ]
+868 silly gunzTarPerm extractEntry deps/lame/libmp3lame/lameerror.h
+869 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/lameerror.h', 420, 438 ]
+870 silly gunzTarPerm extractEntry deps/lame/libmp3lame/logoe.ico
+871 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/logoe.ico', 420, 438 ]
+872 silly gunzTarPerm extractEntry deps/lame/libmp3lame/machine.h
+873 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/machine.h', 420, 438 ]
+874 silly gunzTarPerm extractEntry deps/lame/libmp3lame/Makefile.in
+875 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/Makefile.in', 420, 438 ]
+876 silly gunzTarPerm extractEntry deps/lame/libmp3lame/newmdct.c
+877 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/newmdct.c', 420, 438 ]
+878 silly gunzTarPerm extractEntry deps/lame/libmp3lame/newmdct.h
+879 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/newmdct.h', 420, 438 ]
+880 silly gunzTarPerm extractEntry deps/lame/libmp3lame/presets.c
+881 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/presets.c', 420, 438 ]
+882 silly gunzTarPerm extractEntry deps/lame/libmp3lame/psymodel.c
+883 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/psymodel.c', 420, 438 ]
+884 silly gunzTarPerm extractEntry deps/lame/libmp3lame/psymodel.h
+885 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/psymodel.h', 420, 438 ]
+886 silly gunzTarPerm extractEntry deps/lame/libmp3lame/quantize.c
+887 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/quantize.c', 420, 438 ]
+888 silly gunzTarPerm extractEntry deps/lame/libmp3lame/quantize.h
+889 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/quantize.h', 420, 438 ]
+890 silly gunzTarPerm extractEntry deps/lame/libmp3lame/quantize_pvt.c
+891 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/quantize_pvt.c', 420, 438 ]
+892 silly gunzTarPerm extractEntry deps/lame/libmp3lame/quantize_pvt.h
+893 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/quantize_pvt.h', 420, 438 ]
+894 silly gunzTarPerm extractEntry deps/lame/libmp3lame/reservoir.c
+895 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/reservoir.c', 420, 438 ]
+896 silly gunzTarPerm extractEntry deps/lame/libmp3lame/reservoir.h
+897 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/reservoir.h', 420, 438 ]
+898 silly gunzTarPerm extractEntry deps/lame/libmp3lame/set_get.c
+899 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/set_get.c', 420, 438 ]
+900 silly gunzTarPerm extractEntry deps/lame/libmp3lame/set_get.h
+901 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/set_get.h', 420, 438 ]
+902 silly gunzTarPerm extractEntry deps/lame/libmp3lame/tables.c
+903 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/tables.c', 420, 438 ]
+904 silly gunzTarPerm extractEntry deps/lame/libmp3lame/tables.h
+905 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/tables.h', 420, 438 ]
+906 silly gunzTarPerm extractEntry deps/lame/libmp3lame/takehiro.c
+907 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/takehiro.c', 420, 438 ]
+908 silly gunzTarPerm extractEntry deps/lame/libmp3lame/util.c
+909 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/util.c', 420, 438 ]
+910 silly gunzTarPerm extractEntry deps/lame/libmp3lame/util.h
+911 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/util.h', 420, 438 ]
+912 silly gunzTarPerm extractEntry deps/lame/libmp3lame/vbrquantize.c
+913 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/vbrquantize.c', 420, 438 ]
+914 silly gunzTarPerm extractEntry deps/lame/libmp3lame/vbrquantize.h
+915 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/vbrquantize.h', 420, 438 ]
+916 silly gunzTarPerm extractEntry deps/lame/libmp3lame/vector/Makefile.am
+917 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/vector/Makefile.am', 420, 438 ]
+918 silly gunzTarPerm extractEntry deps/lame/libmp3lame/vector/Makefile.in
+919 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/vector/Makefile.in', 420, 438 ]
+920 silly gunzTarPerm extractEntry deps/lame/libmp3lame/vector/lame_intrin.h
+921 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/vector/lame_intrin.h', 420, 438 ]
+922 silly gunzTarPerm extractEntry deps/lame/libmp3lame/vector/xmm_quantize_sub.c
+923 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/vector/xmm_quantize_sub.c', 420, 438 ]
+924 silly gunzTarPerm extractEntry deps/lame/libmp3lame/version.c
+925 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/version.c', 420, 438 ]
+926 silly gunzTarPerm extractEntry deps/lame/libmp3lame/version.h
+927 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame/version.h', 420, 438 ]
+928 silly gunzTarPerm extractEntry deps/lame/libmp3lame.gyp
+929 silly gunzTarPerm modified mode [ 'deps/lame/libmp3lame.gyp', 420, 438 ]
+930 silly gunzTarPerm extractEntry deps/lame/ltmain.sh
+931 silly gunzTarPerm modified mode [ 'deps/lame/ltmain.sh', 420, 438 ]
+932 silly gunzTarPerm extractEntry deps/lame/mac/LAME.mcp
+933 silly gunzTarPerm modified mode [ 'deps/lame/mac/LAME.mcp', 493, 511 ]
+934 silly gunzTarPerm extractEntry deps/lame/mac/LAME_Carbon_Debug.pch
+935 silly gunzTarPerm modified mode [ 'deps/lame/mac/LAME_Carbon_Debug.pch', 493, 511 ]
+936 silly gunzTarPerm extractEntry deps/lame/mac/LAME_Carbon_Final.pch
+937 silly gunzTarPerm modified mode [ 'deps/lame/mac/LAME_Carbon_Final.pch', 493, 511 ]
+938 silly gunzTarPerm extractEntry deps/lame/mac/LAME_Classic_Debug.pch
+939 silly gunzTarPerm modified mode [ 'deps/lame/mac/LAME_Classic_Debug.pch', 493, 511 ]
+940 silly gunzTarPerm extractEntry deps/lame/mac/LAME_Classic_Final.pch
+941 silly gunzTarPerm modified mode [ 'deps/lame/mac/LAME_Classic_Final.pch', 493, 511 ]
+942 silly gunzTarPerm extractEntry deps/lame/mac/MacDLLMain.c
+943 silly gunzTarPerm modified mode [ 'deps/lame/mac/MacDLLMain.c', 493, 511 ]
+944 silly gunzTarPerm extractEntry deps/lame/mac/Makefile.am
+945 silly gunzTarPerm modified mode [ 'deps/lame/mac/Makefile.am', 420, 438 ]
+946 silly gunzTarPerm extractEntry deps/lame/mac/Makefile.in
+947 silly gunzTarPerm modified mode [ 'deps/lame/mac/Makefile.in', 420, 438 ]
+948 silly gunzTarPerm extractEntry deps/lame/mac/Precompile_Common.h
+949 silly gunzTarPerm modified mode [ 'deps/lame/mac/Precompile_Common.h', 493, 511 ]
+950 silly gunzTarPerm extractEntry deps/lame/macosx/English.lproj/InfoPlist.strings
+951 silly gunzTarPerm modified mode [ 'deps/lame/macosx/English.lproj/InfoPlist.strings', 420, 438 ]
+952 silly gunzTarPerm extractEntry deps/lame/macosx/English.lproj/Makefile.am
+953 silly gunzTarPerm modified mode [ 'deps/lame/macosx/English.lproj/Makefile.am', 420, 438 ]
+954 silly gunzTarPerm extractEntry deps/lame/macosx/English.lproj/Makefile.in
+955 silly gunzTarPerm modified mode [ 'deps/lame/macosx/English.lproj/Makefile.in', 420, 438 ]
+956 silly gunzTarPerm extractEntry deps/lame/macosx/Info.plist
+957 silly gunzTarPerm modified mode [ 'deps/lame/macosx/Info.plist', 420, 438 ]
+958 silly gunzTarPerm extractEntry deps/lame/macosx/LAME.xcodeproj/Makefile.am
+959 silly gunzTarPerm modified mode [ 'deps/lame/macosx/LAME.xcodeproj/Makefile.am', 420, 438 ]
+960 silly gunzTarPerm extractEntry deps/lame/macosx/LAME.xcodeproj/Makefile.in
+961 silly gunzTarPerm modified mode [ 'deps/lame/macosx/LAME.xcodeproj/Makefile.in', 420, 438 ]
+962 silly gunzTarPerm extractEntry deps/lame/macosx/LAME.xcodeproj/project.pbxproj
+963 silly gunzTarPerm modified mode [ 'deps/lame/macosx/LAME.xcodeproj/project.pbxproj', 420, 438 ]
+964 silly gunzTarPerm extractEntry deps/lame/macosx/LAME_Prefix.pch
+965 silly gunzTarPerm modified mode [ 'deps/lame/macosx/LAME_Prefix.pch', 420, 438 ]
+966 silly gunzTarPerm extractEntry deps/lame/macosx/Makefile.am
+967 silly gunzTarPerm modified mode [ 'deps/lame/macosx/Makefile.am', 420, 438 ]
+968 silly gunzTarPerm extractEntry deps/lame/macosx/Makefile.in
+969 silly gunzTarPerm modified mode [ 'deps/lame/macosx/Makefile.in', 420, 438 ]
+970 silly gunzTarPerm extractEntry deps/lame/misc/lame4dos.bat
+971 silly gunzTarPerm modified mode [ 'deps/lame/misc/lame4dos.bat', 420, 438 ]
+972 silly gunzTarPerm extractEntry deps/lame/misc/Lame.vbs
+973 silly gunzTarPerm modified mode [ 'deps/lame/misc/Lame.vbs', 420, 438 ]
+974 silly gunzTarPerm extractEntry deps/lame/misc/Makefile.in
+975 silly gunzTarPerm modified mode [ 'deps/lame/misc/Makefile.in', 420, 438 ]
+976 silly gunzTarPerm extractEntry deps/lame/misc/abx.c
+977 silly gunzTarPerm modified mode [ 'deps/lame/misc/abx.c', 420, 438 ]
+978 silly gunzTarPerm extractEntry deps/lame/misc/ath.c
+979 silly gunzTarPerm modified mode [ 'deps/lame/misc/ath.c', 420, 438 ]
+980 silly gunzTarPerm extractEntry deps/lame/misc/auenc
+981 silly gunzTarPerm modified mode [ 'deps/lame/misc/auenc', 493, 511 ]
+982 silly gunzTarPerm extractEntry deps/lame/misc/depcomp
+983 silly gunzTarPerm modified mode [ 'deps/lame/misc/depcomp', 493, 511 ]
+984 silly gunzTarPerm extractEntry deps/lame/misc/Makefile.am
+985 silly gunzTarPerm modified mode [ 'deps/lame/misc/Makefile.am', 420, 438 ]
+986 silly gunzTarPerm extractEntry deps/lame/misc/lameGUI.html
+987 silly gunzTarPerm modified mode [ 'deps/lame/misc/lameGUI.html', 420, 438 ]
+988 silly gunzTarPerm extractEntry deps/lame/misc/lameid3.pl
+989 silly gunzTarPerm modified mode [ 'deps/lame/misc/lameid3.pl', 420, 438 ]
+990 silly gunzTarPerm extractEntry deps/lame/misc/mk_mp3.sh
+991 silly gunzTarPerm modified mode [ 'deps/lame/misc/mk_mp3.sh', 420, 438 ]
+992 silly gunzTarPerm extractEntry deps/lame/misc/mlame
+993 silly gunzTarPerm modified mode [ 'deps/lame/misc/mlame', 493, 511 ]
+994 silly gunzTarPerm extractEntry deps/lame/misc/mlame_corr.c
+995 silly gunzTarPerm modified mode [ 'deps/lame/misc/mlame_corr.c', 420, 438 ]
+996 silly gunzTarPerm extractEntry deps/lame/misc/mugeco.sh
+997 silly gunzTarPerm modified mode [ 'deps/lame/misc/mugeco.sh', 493, 511 ]
+998 silly gunzTarPerm extractEntry deps/lame/misc/scalartest.c
+999 silly gunzTarPerm modified mode [ 'deps/lame/misc/scalartest.c', 420, 438 ]
+1000 silly gunzTarPerm extractEntry deps/lame/missing
+1001 silly gunzTarPerm modified mode [ 'deps/lame/missing', 493, 511 ]
+1002 silly gunzTarPerm extractEntry deps/lame/mpglib/README
+1003 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/README', 420, 438 ]
+1004 silly gunzTarPerm extractEntry deps/lame/mpglib/interface.c
+1005 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/interface.c', 420, 438 ]
+1006 silly gunzTarPerm extractEntry deps/lame/mpglib/Makefile.in
+1007 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/Makefile.in', 420, 438 ]
+1008 silly gunzTarPerm extractEntry deps/lame/mpglib/AUTHORS
+1009 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/AUTHORS', 420, 438 ]
+1010 silly gunzTarPerm extractEntry deps/lame/mpglib/common.c
+1011 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/common.c', 420, 438 ]
+1012 silly gunzTarPerm extractEntry deps/lame/mpglib/common.h
+1013 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/common.h', 420, 438 ]
+1014 silly gunzTarPerm extractEntry deps/lame/mpglib/dct64_i386.c
+1015 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/dct64_i386.c', 420, 438 ]
+1016 silly gunzTarPerm extractEntry deps/lame/mpglib/dct64_i386.h
+1017 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/dct64_i386.h', 420, 438 ]
+1018 silly gunzTarPerm extractEntry deps/lame/mpglib/decode_i386.c
+1019 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/decode_i386.c', 420, 438 ]
+1020 silly gunzTarPerm extractEntry deps/lame/mpglib/decode_i386.h
+1021 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/decode_i386.h', 420, 438 ]
+1022 silly gunzTarPerm extractEntry deps/lame/mpglib/depcomp
+1023 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/depcomp', 493, 511 ]
+1024 silly gunzTarPerm extractEntry deps/lame/mpglib/huffman.h
+1025 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/huffman.h', 420, 438 ]
+1026 silly gunzTarPerm extractEntry deps/lame/mpglib/Makefile.am
+1027 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/Makefile.am', 420, 438 ]
+1028 silly gunzTarPerm extractEntry deps/lame/mpglib/interface.h
+1029 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/interface.h', 420, 438 ]
+1030 silly gunzTarPerm extractEntry deps/lame/mpglib/l2tables.h
+1031 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/l2tables.h', 420, 438 ]
+1032 silly gunzTarPerm extractEntry deps/lame/mpglib/layer1.c
+1033 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/layer1.c', 420, 438 ]
+1034 silly gunzTarPerm extractEntry deps/lame/mpglib/layer1.h
+1035 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/layer1.h', 420, 438 ]
+1036 silly gunzTarPerm extractEntry deps/lame/mpglib/layer2.c
+1037 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/layer2.c', 420, 438 ]
+1038 silly gunzTarPerm extractEntry deps/lame/mpglib/layer2.h
+1039 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/layer2.h', 420, 438 ]
+1040 silly gunzTarPerm extractEntry deps/lame/mpglib/layer3.c
+1041 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/layer3.c', 420, 438 ]
+1042 silly gunzTarPerm extractEntry deps/lame/mpglib/layer3.h
+1043 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/layer3.h', 420, 438 ]
+1044 silly gunzTarPerm extractEntry deps/lame/mpglib/mpg123.h
+1045 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/mpg123.h', 420, 438 ]
+1046 silly gunzTarPerm extractEntry deps/lame/mpglib/mpglib.h
+1047 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/mpglib.h', 420, 438 ]
+1048 silly gunzTarPerm extractEntry deps/lame/mpglib/tabinit.c
+1049 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/tabinit.c', 420, 438 ]
+1050 silly gunzTarPerm extractEntry deps/lame/mpglib/tabinit.h
+1051 silly gunzTarPerm modified mode [ 'deps/lame/mpglib/tabinit.h', 420, 438 ]
+1052 silly gunzTarPerm extractEntry deps/lame/test.c
+1053 silly gunzTarPerm modified mode [ 'deps/lame/test.c', 420, 438 ]
+1054 silly gunzTarPerm extractEntry deps/lame/testcase.mp3
+1055 silly gunzTarPerm modified mode [ 'deps/lame/testcase.mp3', 420, 438 ]
+1056 silly gunzTarPerm extractEntry deps/lame/testcase.wav
+1057 silly gunzTarPerm modified mode [ 'deps/lame/testcase.wav', 420, 438 ]
+1058 silly gunzTarPerm extractEntry deps/lame/vc_solution/vc9_lame_dll.vcproj
+1059 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/vc9_lame_dll.vcproj', 420, 438 ]
+1060 silly gunzTarPerm extractEntry deps/lame/vc_solution/Makefile.am
+1061 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/Makefile.am', 420, 438 ]
+1062 silly gunzTarPerm extractEntry deps/lame/vc_solution/arch_nasm.vsprops
+1063 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/arch_nasm.vsprops', 420, 438 ]
+1064 silly gunzTarPerm extractEntry deps/lame/vc_solution/arch_sse2.vsprops
+1065 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/arch_sse2.vsprops', 420, 438 ]
+1066 silly gunzTarPerm extractEntry deps/lame/vc_solution/arch_x87.vsprops
+1067 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/arch_x87.vsprops', 420, 438 ]
+1068 silly gunzTarPerm extractEntry deps/lame/vc_solution/vc9_lame.sln
+1069 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/vc9_lame.sln', 420, 438 ]
+1070 silly gunzTarPerm extractEntry deps/lame/vc_solution/vc9_lame_acm.vcproj
+1071 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/vc9_lame_acm.vcproj', 420, 438 ]
+1072 silly gunzTarPerm extractEntry deps/lame/vc_solution/vc9_lame_acm_adbg.vcproj
+1073 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/vc9_lame_acm_adbg.vcproj', 420, 438 ]
+1074 silly gunzTarPerm extractEntry deps/lame/vc_solution/vc9_lame_acm_tinyxml.vcproj
+1075 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/vc9_lame_acm_tinyxml.vcproj', 420, 438 ]
+1076 silly gunzTarPerm extractEntry deps/lame/vc_solution/vc9_lame_clients.sln
+1077 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/vc9_lame_clients.sln', 420, 438 ]
+1078 silly gunzTarPerm extractEntry deps/lame/vc_solution/vc9_lame_config.vsprops
+1079 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/vc9_lame_config.vsprops', 420, 438 ]
+1080 silly gunzTarPerm extractEntry deps/lame/vc_solution/Makefile.in
+1081 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/Makefile.in', 420, 438 ]
+1082 silly gunzTarPerm extractEntry deps/lame/vc_solution/vc9_lame_dll_example.vcproj
+1083 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/vc9_lame_dll_example.vcproj', 420, 438 ]
+1084 silly gunzTarPerm extractEntry deps/lame/vc_solution/vc9_lame_dshow.vcproj
+1085 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/vc9_lame_dshow.vcproj', 420, 438 ]
+1086 silly gunzTarPerm extractEntry deps/lame/vc_solution/vc9_lame_lame.vcproj
+1087 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/vc9_lame_lame.vcproj', 420, 438 ]
+1088 silly gunzTarPerm extractEntry deps/lame/vc_solution/vc9_lame_mp3rtp.vcproj
+1089 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/vc9_lame_mp3rtp.vcproj', 420, 438 ]
+1090 silly gunzTarPerm extractEntry deps/lame/vc_solution/vc9_lame_mp3x.vcproj
+1091 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/vc9_lame_mp3x.vcproj', 420, 438 ]
+1092 silly gunzTarPerm extractEntry deps/lame/vc_solution/vc9_lame_test.vcproj
+1093 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/vc9_lame_test.vcproj', 420, 438 ]
+1094 silly gunzTarPerm extractEntry deps/lame/vc_solution/vc9_libmp3lame.vcproj
+1095 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/vc9_libmp3lame.vcproj', 420, 438 ]
+1096 silly gunzTarPerm extractEntry deps/lame/vc_solution/vc9_libmp3lame_dll.vcproj
+1097 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/vc9_libmp3lame_dll.vcproj', 420, 438 ]
+1098 silly gunzTarPerm extractEntry deps/lame/vc_solution/vc9_mpglib.vcproj
+1099 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/vc9_mpglib.vcproj', 420, 438 ]
+1100 silly gunzTarPerm extractEntry deps/lame/vc_solution/vc9_nasm.rules
+1101 silly gunzTarPerm modified mode [ 'deps/lame/vc_solution/vc9_nasm.rules', 420, 438 ]
+1102 silly gunzTarPerm extractEntry deps/mpg123/README
+1103 silly gunzTarPerm modified mode [ 'deps/mpg123/README', 420, 438 ]
+1104 silly gunzTarPerm extractEntry deps/mpg123/doc/LICENSE
+1105 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/LICENSE', 420, 438 ]
+1106 silly gunzTarPerm extractEntry deps/mpg123/doc/README.gain
+1107 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/README.gain', 420, 438 ]
+1108 silly gunzTarPerm extractEntry deps/mpg123/doc/BUGS
+1109 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/BUGS', 420, 438 ]
+1110 silly gunzTarPerm extractEntry deps/mpg123/doc/CONTACT
+1111 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/CONTACT', 420, 438 ]
+1112 silly gunzTarPerm extractEntry deps/mpg123/doc/ACCURACY
+1113 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/ACCURACY', 420, 438 ]
+1114 silly gunzTarPerm extractEntry deps/mpg123/doc/Makefile.am
+1115 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/Makefile.am', 420, 438 ]
+1116 silly gunzTarPerm extractEntry deps/mpg123/doc/Makefile.in
+1117 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/Makefile.in', 420, 438 ]
+1118 silly gunzTarPerm extractEntry deps/mpg123/doc/PATENTS
+1119 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/PATENTS', 420, 438 ]
+1120 silly gunzTarPerm extractEntry deps/mpg123/doc/README.3DNOW
+1121 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/README.3DNOW', 420, 438 ]
+1122 silly gunzTarPerm extractEntry deps/mpg123/doc/BENCHMARKING
+1123 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/BENCHMARKING', 420, 438 ]
+1124 silly gunzTarPerm extractEntry deps/mpg123/doc/README.remote
+1125 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/README.remote', 420, 438 ]
+1126 silly gunzTarPerm extractEntry deps/mpg123/doc/ROAD_TO_LGPL
+1127 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/ROAD_TO_LGPL', 420, 438 ]
+1128 silly gunzTarPerm extractEntry deps/mpg123/doc/THANKS
+1129 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/THANKS', 420, 438 ]
+1130 silly gunzTarPerm extractEntry deps/mpg123/doc/TODO
+1131 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/TODO', 420, 438 ]
+1132 silly gunzTarPerm extractEntry deps/mpg123/doc/doxy_examples.c
+1133 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/doxy_examples.c', 420, 438 ]
+1134 silly gunzTarPerm extractEntry deps/mpg123/doc/doxygen.conf
+1135 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/doxygen.conf', 420, 438 ]
+1136 silly gunzTarPerm extractEntry deps/mpg123/doc/doxyhead.xhtml
+1137 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/doxyhead.xhtml', 420, 438 ]
+1138 silly gunzTarPerm extractEntry deps/mpg123/doc/examples/Makefile
+1139 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/examples/Makefile', 420, 438 ]
+1140 silly gunzTarPerm extractEntry deps/mpg123/doc/examples/dump_seekindex.c
+1141 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/examples/dump_seekindex.c', 420, 438 ]
+1142 silly gunzTarPerm extractEntry deps/mpg123/doc/examples/extract_frames.c
+1143 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/examples/extract_frames.c', 420, 438 ]
+1144 silly gunzTarPerm extractEntry deps/mpg123/doc/examples/feedseek.c
+1145 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/examples/feedseek.c', 420, 438 ]
+1146 silly gunzTarPerm extractEntry deps/mpg123/doc/examples/id3dump.c
+1147 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/examples/id3dump.c', 420, 438 ]
+1148 silly gunzTarPerm extractEntry deps/mpg123/doc/examples/mpg123_to_wav.c
+1149 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/examples/mpg123_to_wav.c', 420, 438 ]
+1150 silly gunzTarPerm extractEntry deps/mpg123/doc/examples/mpglib.c
+1151 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/examples/mpglib.c', 420, 438 ]
+1152 silly gunzTarPerm extractEntry deps/mpg123/doc/examples/scan.c
+1153 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/examples/scan.c', 420, 438 ]
+1154 silly gunzTarPerm extractEntry deps/mpg123/doc/libmpg123_speed.txt
+1155 silly gunzTarPerm modified mode [ 'deps/mpg123/doc/libmpg123_speed.txt', 420, 438 ]
+1156 silly gunzTarPerm extractEntry deps/mpg123/ChangeLog
+1157 silly gunzTarPerm modified mode [ 'deps/mpg123/ChangeLog', 420, 438 ]
+1158 silly gunzTarPerm extractEntry deps/mpg123/INSTALL
+1159 silly gunzTarPerm modified mode [ 'deps/mpg123/INSTALL', 420, 438 ]
+1160 silly gunzTarPerm extractEntry deps/mpg123/Makefile.am
+1161 silly gunzTarPerm modified mode [ 'deps/mpg123/Makefile.am', 420, 438 ]
+1162 silly gunzTarPerm extractEntry deps/mpg123/Makefile.in
+1163 silly gunzTarPerm modified mode [ 'deps/mpg123/Makefile.in', 420, 438 ]
+1164 silly gunzTarPerm extractEntry deps/mpg123/NEWS
+1165 silly gunzTarPerm modified mode [ 'deps/mpg123/NEWS', 420, 438 ]
+1166 silly gunzTarPerm extractEntry deps/mpg123/NEWS.libmpg123
+1167 silly gunzTarPerm modified mode [ 'deps/mpg123/NEWS.libmpg123', 420, 438 ]
+1168 silly gunzTarPerm extractEntry deps/mpg123/AUTHORS
+1169 silly gunzTarPerm modified mode [ 'deps/mpg123/AUTHORS', 420, 438 ]
+1170 silly gunzTarPerm extractEntry deps/mpg123/TODO
+1171 silly gunzTarPerm modified mode [ 'deps/mpg123/TODO', 420, 438 ]
+1172 silly gunzTarPerm extractEntry deps/mpg123/aclocal.m4
+1173 silly gunzTarPerm modified mode [ 'deps/mpg123/aclocal.m4', 420, 438 ]
+1174 silly gunzTarPerm extractEntry deps/mpg123/config/freebsd/x64/config.h
+1175 silly gunzTarPerm modified mode [ 'deps/mpg123/config/freebsd/x64/config.h', 420, 438 ]
+1176 silly gunzTarPerm extractEntry deps/mpg123/config/freebsd/x64/mpg123.h
+1177 silly gunzTarPerm modified mode [ 'deps/mpg123/config/freebsd/x64/mpg123.h', 420, 438 ]
+1178 silly gunzTarPerm extractEntry deps/mpg123/config/linux/arm/config.h
+1179 silly gunzTarPerm modified mode [ 'deps/mpg123/config/linux/arm/config.h', 420, 438 ]
+1180 silly gunzTarPerm extractEntry deps/mpg123/config/linux/arm/mpg123.h
+1181 silly gunzTarPerm modified mode [ 'deps/mpg123/config/linux/arm/mpg123.h', 420, 438 ]
+1182 silly gunzTarPerm extractEntry deps/mpg123/config/linux/ia32/config.h
+1183 silly gunzTarPerm modified mode [ 'deps/mpg123/config/linux/ia32/config.h', 420, 438 ]
+1184 silly gunzTarPerm extractEntry deps/mpg123/config/linux/ia32/mpg123.h
+1185 silly gunzTarPerm modified mode [ 'deps/mpg123/config/linux/ia32/mpg123.h', 420, 438 ]
+1186 silly gunzTarPerm extractEntry deps/mpg123/config/linux/x64/config.h
+1187 silly gunzTarPerm modified mode [ 'deps/mpg123/config/linux/x64/config.h', 420, 438 ]
+1188 silly gunzTarPerm extractEntry deps/mpg123/config/linux/x64/mpg123.h
+1189 silly gunzTarPerm modified mode [ 'deps/mpg123/config/linux/x64/mpg123.h', 420, 438 ]
+1190 silly gunzTarPerm extractEntry deps/mpg123/config/mac/ia32/config.h
+1191 silly gunzTarPerm modified mode [ 'deps/mpg123/config/mac/ia32/config.h', 420, 438 ]
+1192 silly gunzTarPerm extractEntry deps/mpg123/config/mac/ia32/mpg123.h
+1193 silly gunzTarPerm modified mode [ 'deps/mpg123/config/mac/ia32/mpg123.h', 420, 438 ]
+1194 silly gunzTarPerm extractEntry deps/mpg123/config/mac/x64/config.h
+1195 silly gunzTarPerm modified mode [ 'deps/mpg123/config/mac/x64/config.h', 420, 438 ]
+1196 silly gunzTarPerm extractEntry deps/mpg123/config/mac/x64/mpg123.h
+1197 silly gunzTarPerm modified mode [ 'deps/mpg123/config/mac/x64/mpg123.h', 420, 438 ]
+1198 silly gunzTarPerm extractEntry deps/mpg123/config/solaris/ia32/config.h
+1199 silly gunzTarPerm modified mode [ 'deps/mpg123/config/solaris/ia32/config.h', 420, 438 ]
+1200 silly gunzTarPerm extractEntry deps/mpg123/config/solaris/ia32/mpg123.h
+1201 silly gunzTarPerm modified mode [ 'deps/mpg123/config/solaris/ia32/mpg123.h', 420, 438 ]
+1202 silly gunzTarPerm extractEntry deps/mpg123/config/solaris/x64/config.h
+1203 silly gunzTarPerm modified mode [ 'deps/mpg123/config/solaris/x64/config.h', 420, 438 ]
+1204 silly gunzTarPerm extractEntry deps/mpg123/config/solaris/x64/mpg123.h
+1205 silly gunzTarPerm modified mode [ 'deps/mpg123/config/solaris/x64/mpg123.h', 420, 438 ]
+1206 silly gunzTarPerm extractEntry deps/mpg123/config/win/ia32/config.h
+1207 silly gunzTarPerm modified mode [ 'deps/mpg123/config/win/ia32/config.h', 420, 438 ]
+1208 silly gunzTarPerm extractEntry deps/mpg123/config/win/ia32/mpg123.h
+1209 silly gunzTarPerm modified mode [ 'deps/mpg123/config/win/ia32/mpg123.h', 420, 438 ]
+1210 silly gunzTarPerm extractEntry deps/mpg123/config/win/x64/config.h
+1211 silly gunzTarPerm modified mode [ 'deps/mpg123/config/win/x64/config.h', 420, 438 ]
+1212 silly gunzTarPerm extractEntry deps/mpg123/config/win/x64/mpg123.h
+1213 silly gunzTarPerm modified mode [ 'deps/mpg123/config/win/x64/mpg123.h', 420, 438 ]
+1214 silly gunzTarPerm extractEntry deps/mpg123/configure
+1215 silly gunzTarPerm modified mode [ 'deps/mpg123/configure', 493, 511 ]
+1216 silly gunzTarPerm extractEntry deps/mpg123/configure.ac
+1217 silly gunzTarPerm modified mode [ 'deps/mpg123/configure.ac', 420, 438 ]
+1218 silly gunzTarPerm extractEntry deps/mpg123/COPYING
+1219 silly gunzTarPerm modified mode [ 'deps/mpg123/COPYING', 420, 438 ]
+1220 silly gunzTarPerm extractEntry deps/mpg123/equalize.dat
+1221 silly gunzTarPerm modified mode [ 'deps/mpg123/equalize.dat', 420, 438 ]
+1222 silly gunzTarPerm extractEntry deps/mpg123/libmpg123.pc.in
+1223 silly gunzTarPerm modified mode [ 'deps/mpg123/libmpg123.pc.in', 420, 438 ]
+1224 silly gunzTarPerm extractEntry deps/mpg123/m4/addrconfig.m4
+1225 silly gunzTarPerm modified mode [ 'deps/mpg123/m4/addrconfig.m4', 420, 438 ]
+1226 silly gunzTarPerm extractEntry deps/mpg123/m4/libtool.m4
+1227 silly gunzTarPerm modified mode [ 'deps/mpg123/m4/libtool.m4', 420, 438 ]
+1228 silly gunzTarPerm extractEntry deps/mpg123/m4/ltoptions.m4
+1229 silly gunzTarPerm modified mode [ 'deps/mpg123/m4/ltoptions.m4', 420, 438 ]
+1230 silly gunzTarPerm extractEntry deps/mpg123/m4/ltsugar.m4
+1231 silly gunzTarPerm modified mode [ 'deps/mpg123/m4/ltsugar.m4', 420, 438 ]
+1232 silly gunzTarPerm extractEntry deps/mpg123/m4/ltversion.m4
+1233 silly gunzTarPerm modified mode [ 'deps/mpg123/m4/ltversion.m4', 420, 438 ]
+1234 silly gunzTarPerm extractEntry deps/mpg123/m4/lt~obsolete.m4
+1235 silly gunzTarPerm modified mode [ 'deps/mpg123/m4/lt~obsolete.m4', 420, 438 ]
+1236 silly gunzTarPerm extractEntry deps/mpg123/makedll.sh
+1237 silly gunzTarPerm modified mode [ 'deps/mpg123/makedll.sh', 420, 438 ]
+1238 silly gunzTarPerm extractEntry deps/mpg123/man1/mpg123.1
+1239 silly gunzTarPerm modified mode [ 'deps/mpg123/man1/mpg123.1', 420, 438 ]
+1240 silly gunzTarPerm extractEntry deps/mpg123/mpg123.gyp
+1241 silly gunzTarPerm modified mode [ 'deps/mpg123/mpg123.gyp', 420, 438 ]
+1242 silly gunzTarPerm extractEntry deps/mpg123/mpg123.spec
+1243 silly gunzTarPerm modified mode [ 'deps/mpg123/mpg123.spec', 420, 438 ]
+1244 silly gunzTarPerm extractEntry deps/mpg123/mpg123.spec.in
+1245 silly gunzTarPerm modified mode [ 'deps/mpg123/mpg123.spec.in', 420, 438 ]
+1246 silly gunzTarPerm extractEntry deps/mpg123/ports/README
+1247 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/README', 420, 438 ]
+1248 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2005/libmpg123/libmpg123.vcproj
+1249 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2005/libmpg123/libmpg123.vcproj',
+1249 silly gunzTarPerm   420,
+1249 silly gunzTarPerm   438 ]
+1250 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008/dump_seekindex/dump_seekindex.vcproj
+1251 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008/dump_seekindex/dump_seekindex.vcproj',
+1251 silly gunzTarPerm   420,
+1251 silly gunzTarPerm   438 ]
+1252 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008/feedseek/feedseek.vcproj
+1253 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008/feedseek/feedseek.vcproj',
+1253 silly gunzTarPerm   420,
+1253 silly gunzTarPerm   438 ]
+1254 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008/libmpg123/libmpg123.vcproj
+1255 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008/libmpg123/libmpg123.vcproj',
+1255 silly gunzTarPerm   420,
+1255 silly gunzTarPerm   438 ]
+1256 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008/mpg123.sln
+1257 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008/mpg123.sln', 420, 438 ]
+1258 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008/mpglib/mpglib.vcproj
+1259 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008/mpglib/mpglib.vcproj',
+1259 silly gunzTarPerm   420,
+1259 silly gunzTarPerm   438 ]
+1260 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008/scan/scan.vcproj
+1261 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008/scan/scan.vcproj', 420, 438 ]
+1262 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/2008clr.sln
+1263 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/2008clr.sln', 420, 438 ]
+1264 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/examples/ReplaceReaderclr/Program.cs
+1265 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/examples/ReplaceReaderclr/Program.cs',
+1265 silly gunzTarPerm   420,
+1265 silly gunzTarPerm   438 ]
+1266 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/examples/ReplaceReaderclr/Properties/AssemblyInfo.cs
+1267 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/examples/ReplaceReaderclr/Properties/AssemblyInfo.cs',
+1267 silly gunzTarPerm   420,
+1267 silly gunzTarPerm   438 ]
+1268 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/examples/ReplaceReaderclr/ReplaceReaderclr.csproj
+1269 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/examples/ReplaceReaderclr/ReplaceReaderclr.csproj',
+1269 silly gunzTarPerm   420,
+1269 silly gunzTarPerm   438 ]
+1270 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/examples/feedseekclr/Program.cs
+1271 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/examples/feedseekclr/Program.cs',
+1271 silly gunzTarPerm   420,
+1271 silly gunzTarPerm   438 ]
+1272 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/examples/feedseekclr/Properties/AssemblyInfo.cs
+1273 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/examples/feedseekclr/Properties/AssemblyInfo.cs',
+1273 silly gunzTarPerm   420,
+1273 silly gunzTarPerm   438 ]
+1274 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/examples/feedseekclr/feedseekclr.csproj
+1275 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/examples/feedseekclr/feedseekclr.csproj',
+1275 silly gunzTarPerm   420,
+1275 silly gunzTarPerm   438 ]
+1276 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/examples/scanclr/Program.cs
+1277 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/examples/scanclr/Program.cs',
+1277 silly gunzTarPerm   420,
+1277 silly gunzTarPerm   438 ]
+1278 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/examples/scanclr/Properties/AssemblyInfo.cs
+1279 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/examples/scanclr/Properties/AssemblyInfo.cs',
+1279 silly gunzTarPerm   420,
+1279 silly gunzTarPerm   438 ]
+1280 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/examples/scanclr/scanclr.csproj
+1281 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/examples/scanclr/scanclr.csproj',
+1281 silly gunzTarPerm   420,
+1281 silly gunzTarPerm   438 ]
+1282 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/mpg123clr.cpp
+1283 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/mpg123clr.cpp',
+1283 silly gunzTarPerm   420,
+1283 silly gunzTarPerm   438 ]
+1284 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/AssemblyInfo.cpp
+1285 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/AssemblyInfo.cpp',
+1285 silly gunzTarPerm   420,
+1285 silly gunzTarPerm   438 ]
+1286 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/advanced.cpp
+1287 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/advanced.cpp',
+1287 silly gunzTarPerm   420,
+1287 silly gunzTarPerm   438 ]
+1288 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/advanced.h
+1289 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/advanced.h',
+1289 silly gunzTarPerm   420,
+1289 silly gunzTarPerm   438 ]
+1290 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/dllmain.cpp
+1291 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/dllmain.cpp',
+1291 silly gunzTarPerm   420,
+1291 silly gunzTarPerm   438 ]
+1292 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/enum.h
+1293 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/enum.h', 420, 438 ]
+1294 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/error.cpp
+1295 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/error.cpp',
+1295 silly gunzTarPerm   420,
+1295 silly gunzTarPerm   438 ]
+1296 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/error.h
+1297 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/error.h',
+1297 silly gunzTarPerm   420,
+1297 silly gunzTarPerm   438 ]
+1298 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/id3v1.cpp
+1299 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/id3v1.cpp',
+1299 silly gunzTarPerm   420,
+1299 silly gunzTarPerm   438 ]
+1300 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/id3v1.h
+1301 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/id3v1.h',
+1301 silly gunzTarPerm   420,
+1301 silly gunzTarPerm   438 ]
+1302 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/id3v2.cpp
+1303 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/id3v2.cpp',
+1303 silly gunzTarPerm   420,
+1303 silly gunzTarPerm   438 ]
+1304 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/id3v2.h
+1305 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/id3v2.h',
+1305 silly gunzTarPerm   420,
+1305 silly gunzTarPerm   438 ]
+1306 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/ReadMe.txt
+1307 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/ReadMe.txt',
+1307 silly gunzTarPerm   420,
+1307 silly gunzTarPerm   438 ]
+1308 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/mpg123clr.h
+1309 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/mpg123clr.h',
+1309 silly gunzTarPerm   420,
+1309 silly gunzTarPerm   438 ]
+1310 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/mpg123clr.rc
+1311 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/mpg123clr.rc',
+1311 silly gunzTarPerm   420,
+1311 silly gunzTarPerm   438 ]
+1312 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/mpg123clr.vcproj
+1313 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/mpg123clr.vcproj',
+1313 silly gunzTarPerm   420,
+1313 silly gunzTarPerm   438 ]
+1314 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/resource.h
+1315 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/resource.h',
+1315 silly gunzTarPerm   420,
+1315 silly gunzTarPerm   438 ]
+1316 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/stdafx.cpp
+1317 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/stdafx.cpp',
+1317 silly gunzTarPerm   420,
+1317 silly gunzTarPerm   438 ]
+1318 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/stdafx.h
+1319 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/stdafx.h',
+1319 silly gunzTarPerm   420,
+1319 silly gunzTarPerm   438 ]
+1320 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/string.cpp
+1321 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/string.cpp',
+1321 silly gunzTarPerm   420,
+1321 silly gunzTarPerm   438 ]
+1322 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/string.h
+1323 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/string.h',
+1323 silly gunzTarPerm   420,
+1323 silly gunzTarPerm   438 ]
+1324 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/targetver.h
+1325 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/targetver.h',
+1325 silly gunzTarPerm   420,
+1325 silly gunzTarPerm   438 ]
+1326 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/text.cpp
+1327 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/text.cpp',
+1327 silly gunzTarPerm   420,
+1327 silly gunzTarPerm   438 ]
+1328 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2008clr/mpg123clr/text.h
+1329 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2008clr/mpg123clr/text.h', 420, 438 ]
+1330 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2010/dump_seekindex/dump_seekindex.vcxproj
+1331 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2010/dump_seekindex/dump_seekindex.vcxproj',
+1331 silly gunzTarPerm   420,
+1331 silly gunzTarPerm   438 ]
+1332 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2010/dump_seekindex/dump_seekindex.vcxproj.filters
+1333 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2010/dump_seekindex/dump_seekindex.vcxproj.filters',
+1333 silly gunzTarPerm   420,
+1333 silly gunzTarPerm   438 ]
+1334 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2010/feedseek/feedseek.vcxproj
+1335 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2010/feedseek/feedseek.vcxproj',
+1335 silly gunzTarPerm   420,
+1335 silly gunzTarPerm   438 ]
+1336 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2010/feedseek/feedseek.vcxproj.filters
+1337 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2010/feedseek/feedseek.vcxproj.filters',
+1337 silly gunzTarPerm   420,
+1337 silly gunzTarPerm   438 ]
+1338 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2010/libmpg123/libmpg123.vcxproj
+1339 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2010/libmpg123/libmpg123.vcxproj',
+1339 silly gunzTarPerm   420,
+1339 silly gunzTarPerm   438 ]
+1340 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2010/mpg123.sln
+1341 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2010/mpg123.sln', 420, 438 ]
+1342 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2010/scan/scan.vcxproj
+1343 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2010/scan/scan.vcxproj', 420, 438 ]
+1344 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/2010/scan/scan.vcxproj.filters
+1345 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/2010/scan/scan.vcxproj.filters',
+1345 silly gunzTarPerm   420,
+1345 silly gunzTarPerm   438 ]
+1346 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/CMP3Stream/README
+1347 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/CMP3Stream/README', 420, 438 ]
+1348 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/CMP3Stream/INCLUDE/CORE/CORE_FileIn.H
+1349 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/CMP3Stream/INCLUDE/CORE/CORE_FileIn.H',
+1349 silly gunzTarPerm   420,
+1349 silly gunzTarPerm   438 ]
+1350 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/CMP3Stream/INCLUDE/CORE/SourceFilter_MP3.H
+1351 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/CMP3Stream/INCLUDE/CORE/SourceFilter_MP3.H',
+1351 silly gunzTarPerm   420,
+1351 silly gunzTarPerm   438 ]
+1352 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/CMP3Stream/INCLUDE/IIEP_Def.H
+1353 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/CMP3Stream/INCLUDE/IIEP_Def.H',
+1353 silly gunzTarPerm   420,
+1353 silly gunzTarPerm   438 ]
+1354 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/CMP3Stream/INCLUDE/IIEP_FileIn.H
+1355 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/CMP3Stream/INCLUDE/IIEP_FileIn.H',
+1355 silly gunzTarPerm   420,
+1355 silly gunzTarPerm   438 ]
+1356 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/CMP3Stream/SOURCE/CORE_FileIn.CPP
+1357 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/CMP3Stream/SOURCE/CORE_FileIn.CPP',
+1357 silly gunzTarPerm   420,
+1357 silly gunzTarPerm   438 ]
+1358 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/CMP3Stream/SOURCE/CORE_Log.CPP
+1359 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/CMP3Stream/SOURCE/CORE_Log.CPP',
+1359 silly gunzTarPerm   420,
+1359 silly gunzTarPerm   438 ]
+1360 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/CMP3Stream/SOURCE/CORE_Mutex.CPP
+1361 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/CMP3Stream/SOURCE/CORE_Mutex.CPP',
+1361 silly gunzTarPerm   420,
+1361 silly gunzTarPerm   438 ]
+1362 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/CMP3Stream/SOURCE/SourceFilter_MP3Stream.CPP
+1363 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/CMP3Stream/SOURCE/SourceFilter_MP3Stream.CPP',
+1363 silly gunzTarPerm   420,
+1363 silly gunzTarPerm   438 ]
+1364 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/CMP3Stream/libMPG123/PLACE_LIBMPG123_SOURCES_HERE
+1365 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/CMP3Stream/libMPG123/PLACE_LIBMPG123_SOURCES_HERE',
+1365 silly gunzTarPerm   420,
+1365 silly gunzTarPerm   438 ]
+1366 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/CMP3Stream/libMPG123/libMPG123.vcproj
+1367 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/CMP3Stream/libMPG123/libMPG123.vcproj',
+1367 silly gunzTarPerm   420,
+1367 silly gunzTarPerm   438 ]
+1368 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/config.h
+1369 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/config.h', 420, 438 ]
+1370 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/examples/feedseek.c
+1371 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/examples/feedseek.c', 420, 438 ]
+1372 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/examples/scan.c
+1373 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/examples/scan.c', 420, 438 ]
+1374 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/mpg123.h
+1375 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/mpg123.h', 420, 438 ]
+1376 silly gunzTarPerm extractEntry deps/mpg123/ports/MSVC++/msvc.c
+1377 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/MSVC++/msvc.c', 420, 438 ]
+1378 silly gunzTarPerm extractEntry deps/mpg123/ports/Sony_PSP/README
+1379 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/Sony_PSP/README', 420, 438 ]
+1380 silly gunzTarPerm extractEntry deps/mpg123/ports/Sony_PSP/Makefile.psp
+1381 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/Sony_PSP/Makefile.psp', 420, 438 ]
+1382 silly gunzTarPerm extractEntry deps/mpg123/ports/Sony_PSP/config.h
+1383 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/Sony_PSP/config.h', 420, 438 ]
+1384 silly gunzTarPerm extractEntry deps/mpg123/ports/Sony_PSP/readers.c.patch
+1385 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/Sony_PSP/readers.c.patch', 420, 438 ]
+1386 silly gunzTarPerm extractEntry deps/mpg123/ports/Xcode/config.h
+1387 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/Xcode/config.h', 420, 438 ]
+1388 silly gunzTarPerm extractEntry deps/mpg123/ports/Xcode/mpg123.h
+1389 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/Xcode/mpg123.h', 420, 438 ]
+1390 silly gunzTarPerm extractEntry deps/mpg123/ports/Xcode/mpg123.xcodeproj/project.pbxproj
+1391 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/Xcode/mpg123.xcodeproj/project.pbxproj',
+1391 silly gunzTarPerm   420,
+1391 silly gunzTarPerm   438 ]
+1392 silly gunzTarPerm extractEntry deps/mpg123/ports/mpg123_.pas
+1393 silly gunzTarPerm modified mode [ 'deps/mpg123/ports/mpg123_.pas', 420, 438 ]
+1394 silly gunzTarPerm extractEntry deps/mpg123/scripts/benchmark-cpu.pl
+1395 silly gunzTarPerm modified mode [ 'deps/mpg123/scripts/benchmark-cpu.pl', 493, 511 ]
+1396 silly gunzTarPerm extractEntry deps/mpg123/scripts/tag_lyrics.py
+1397 silly gunzTarPerm modified mode [ 'deps/mpg123/scripts/tag_lyrics.py', 420, 438 ]
+1398 silly gunzTarPerm extractEntry deps/mpg123/src/module.c
+1399 silly gunzTarPerm modified mode [ 'deps/mpg123/src/module.c', 420, 438 ]
+1400 silly gunzTarPerm extractEntry deps/mpg123/src/Makefile.am
+1401 silly gunzTarPerm modified mode [ 'deps/mpg123/src/Makefile.am', 420, 438 ]
+1402 silly gunzTarPerm extractEntry deps/mpg123/src/audio.c
+1403 silly gunzTarPerm modified mode [ 'deps/mpg123/src/audio.c', 420, 438 ]
+1404 silly gunzTarPerm extractEntry deps/mpg123/src/audio.h
+1405 silly gunzTarPerm modified mode [ 'deps/mpg123/src/audio.h', 420, 438 ]
+1406 silly gunzTarPerm extractEntry deps/mpg123/src/buffer.c
+1407 silly gunzTarPerm modified mode [ 'deps/mpg123/src/buffer.c', 420, 438 ]
+1408 silly gunzTarPerm extractEntry deps/mpg123/src/buffer.h
+1409 silly gunzTarPerm modified mode [ 'deps/mpg123/src/buffer.h', 420, 438 ]
+1410 silly gunzTarPerm extractEntry deps/mpg123/src/common.c
+1411 silly gunzTarPerm modified mode [ 'deps/mpg123/src/common.c', 420, 438 ]
+1412 silly gunzTarPerm extractEntry deps/mpg123/src/common.h
+1413 silly gunzTarPerm modified mode [ 'deps/mpg123/src/common.h', 420, 438 ]
+1414 silly gunzTarPerm extractEntry deps/mpg123/src/config.h.in
+1415 silly gunzTarPerm modified mode [ 'deps/mpg123/src/config.h.in', 420, 438 ]
+1416 silly gunzTarPerm extractEntry deps/mpg123/src/control_generic.c
+1417 silly gunzTarPerm modified mode [ 'deps/mpg123/src/control_generic.c', 420, 438 ]
+1418 silly gunzTarPerm extractEntry deps/mpg123/src/equalizer.c
+1419 silly gunzTarPerm modified mode [ 'deps/mpg123/src/equalizer.c', 420, 438 ]
+1420 silly gunzTarPerm extractEntry deps/mpg123/src/genre.c
+1421 silly gunzTarPerm modified mode [ 'deps/mpg123/src/genre.c', 420, 438 ]
+1422 silly gunzTarPerm extractEntry deps/mpg123/src/genre.h
+1423 silly gunzTarPerm modified mode [ 'deps/mpg123/src/genre.h', 420, 438 ]
+1424 silly gunzTarPerm extractEntry deps/mpg123/src/getlopt.c
+1425 silly gunzTarPerm modified mode [ 'deps/mpg123/src/getlopt.c', 420, 438 ]
+1426 silly gunzTarPerm extractEntry deps/mpg123/src/getlopt.h
+1427 silly gunzTarPerm modified mode [ 'deps/mpg123/src/getlopt.h', 420, 438 ]
+1428 silly gunzTarPerm extractEntry deps/mpg123/src/httpget.c
+1429 silly gunzTarPerm modified mode [ 'deps/mpg123/src/httpget.c', 420, 438 ]
+1430 silly gunzTarPerm extractEntry deps/mpg123/src/httpget.h
+1431 silly gunzTarPerm modified mode [ 'deps/mpg123/src/httpget.h', 420, 438 ]
+1432 silly gunzTarPerm extractEntry deps/mpg123/src/legacy_module.c
+1433 silly gunzTarPerm modified mode [ 'deps/mpg123/src/legacy_module.c', 420, 438 ]
+1434 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/mpg123lib_intern.h
+1435 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/mpg123lib_intern.h', 420, 438 ]
+1436 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/Makefile.am
+1437 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/Makefile.am', 420, 438 ]
+1438 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/compat.c
+1439 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/compat.c', 420, 438 ]
+1440 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/compat.h
+1441 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/compat.h', 420, 438 ]
+1442 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct36_3dnow.S
+1443 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/dct36_3dnow.S', 420, 438 ]
+1444 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct36_3dnowext.S
+1445 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/dct36_3dnowext.S', 420, 438 ]
+1446 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64.c
+1447 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/dct64.c', 420, 438 ]
+1448 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_3dnow.S
+1449 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/dct64_3dnow.S', 420, 438 ]
+1450 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_3dnowext.S
+1451 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/dct64_3dnowext.S', 420, 438 ]
+1452 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_altivec.c
+1453 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/dct64_altivec.c', 420, 438 ]
+1454 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_i386.c
+1455 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/dct64_i386.c', 420, 438 ]
+1456 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_i486.c
+1457 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/dct64_i486.c', 420, 438 ]
+1458 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_mmx.S
+1459 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/dct64_mmx.S', 420, 438 ]
+1460 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_neon.S
+1461 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/dct64_neon.S', 420, 438 ]
+1462 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_neon_float.S
+1463 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/dct64_neon_float.S', 420, 438 ]
+1464 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_sse.S
+1465 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/dct64_sse.S', 420, 438 ]
+1466 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_sse_float.S
+1467 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/dct64_sse_float.S', 420, 438 ]
+1468 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_x86_64.S
+1469 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/dct64_x86_64.S', 420, 438 ]
+1470 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_x86_64_float.S
+1471 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/dct64_x86_64_float.S', 420, 438 ]
+1472 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/debug.h
+1473 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/debug.h', 420, 438 ]
+1474 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/decode.h
+1475 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/decode.h', 420, 438 ]
+1476 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dither.c
+1477 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/dither.c', 420, 438 ]
+1478 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dither.h
+1479 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/dither.h', 420, 438 ]
+1480 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/equalizer.c
+1481 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/equalizer.c', 420, 438 ]
+1482 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/equalizer_3dnow.S
+1483 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/equalizer_3dnow.S', 420, 438 ]
+1484 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/feature.c
+1485 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/feature.c', 420, 438 ]
+1486 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/format.c
+1487 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/format.c', 420, 438 ]
+1488 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/frame.c
+1489 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/frame.c', 420, 438 ]
+1490 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/frame.h
+1491 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/frame.h', 420, 438 ]
+1492 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/gapless.h
+1493 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/gapless.h', 420, 438 ]
+1494 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/getbits.h
+1495 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/getbits.h', 420, 438 ]
+1496 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/getcpuflags.S
+1497 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/getcpuflags.S', 420, 438 ]
+1498 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/getcpuflags.h
+1499 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/getcpuflags.h', 420, 438 ]
+1500 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/huffman.h
+1501 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/huffman.h', 420, 438 ]
+1502 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/icy.c
+1503 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/icy.c', 420, 438 ]
+1504 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/icy.h
+1505 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/icy.h', 420, 438 ]
+1506 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/icy2utf8.c
+1507 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/icy2utf8.c', 420, 438 ]
+1508 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/icy2utf8.h
+1509 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/icy2utf8.h', 420, 438 ]
+1510 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/id3.c
+1511 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/id3.c', 420, 438 ]
+1512 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/id3.h
+1513 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/id3.h', 420, 438 ]
+1514 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/index.c
+1515 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/index.c', 420, 438 ]
+1516 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/index.h
+1517 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/index.h', 420, 438 ]
+1518 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/intsym.h
+1519 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/intsym.h', 420, 438 ]
+1520 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/l12_integer_tables.h
+1521 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/l12_integer_tables.h', 420, 438 ]
+1522 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/l2tables.h
+1523 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/l2tables.h', 420, 438 ]
+1524 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/l3_integer_tables.h
+1525 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/l3_integer_tables.h', 420, 438 ]
+1526 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/layer1.c
+1527 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/layer1.c', 420, 438 ]
+1528 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/layer2.c
+1529 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/layer2.c', 420, 438 ]
+1530 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/layer3.c
+1531 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/layer3.c', 420, 438 ]
+1532 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/lfs_alias.c
+1533 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/lfs_alias.c', 420, 438 ]
+1534 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/lfs_wrap.c
+1535 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/lfs_wrap.c', 420, 438 ]
+1536 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/libmpg123.c
+1537 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/libmpg123.c', 420, 438 ]
+1538 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/mangle.h
+1539 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/mangle.h', 420, 438 ]
+1540 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/mpeghead.h
+1541 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/mpeghead.h', 420, 438 ]
+1542 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/mpg123.h.in
+1543 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/mpg123.h.in', 420, 438 ]
+1544 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/Makefile.in
+1545 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/Makefile.in', 420, 438 ]
+1546 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/ntom.c
+1547 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/ntom.c', 420, 438 ]
+1548 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/optimize.c
+1549 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/optimize.c', 420, 438 ]
+1550 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/optimize.h
+1551 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/optimize.h', 420, 438 ]
+1552 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/parse.c
+1553 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/parse.c', 420, 438 ]
+1554 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/parse.h
+1555 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/parse.h', 420, 438 ]
+1556 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/reader.h
+1557 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/reader.h', 420, 438 ]
+1558 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/readers.c
+1559 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/readers.c', 420, 438 ]
+1560 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/sample.h
+1561 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/sample.h', 420, 438 ]
+1562 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/stringbuf.c
+1563 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/stringbuf.c', 420, 438 ]
+1564 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth.c
+1565 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth.c', 420, 438 ]
+1566 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth.h
+1567 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth.h', 420, 438 ]
+1568 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_3dnow.S
+1569 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_3dnow.S', 420, 438 ]
+1570 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_3dnowext.S
+1571 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_3dnowext.S', 420, 438 ]
+1572 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_8bit.c
+1573 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_8bit.c', 420, 438 ]
+1574 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_8bit.h
+1575 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_8bit.h', 420, 438 ]
+1576 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_altivec.c
+1577 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_altivec.c', 420, 438 ]
+1578 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_arm.S
+1579 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_arm.S', 420, 438 ]
+1580 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_arm_accurate.S
+1581 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_arm_accurate.S', 420, 438 ]
+1582 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_i486.c
+1583 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_i486.c', 420, 438 ]
+1584 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_i586.S
+1585 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_i586.S', 420, 438 ]
+1586 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_i586_dither.S
+1587 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_i586_dither.S', 420, 438 ]
+1588 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_mmx.S
+1589 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_mmx.S', 420, 438 ]
+1590 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_mono.h
+1591 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_mono.h', 420, 438 ]
+1592 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_neon.S
+1593 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_neon.S', 420, 438 ]
+1594 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_neon_accurate.S
+1595 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_neon_accurate.S', 420, 438 ]
+1596 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_neon_float.S
+1597 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_neon_float.S', 420, 438 ]
+1598 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_neon_s32.S
+1599 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_neon_s32.S', 420, 438 ]
+1600 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_ntom.h
+1601 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_ntom.h', 420, 438 ]
+1602 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_real.c
+1603 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_real.c', 420, 438 ]
+1604 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_s32.c
+1605 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_s32.c', 420, 438 ]
+1606 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_sse.S
+1607 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_sse.S', 420, 438 ]
+1608 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_sse3d.h
+1609 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_sse3d.h', 420, 438 ]
+1610 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_sse_accurate.S
+1611 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_sse_accurate.S', 420, 438 ]
+1612 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_sse_float.S
+1613 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_sse_float.S', 420, 438 ]
+1614 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_sse_s32.S
+1615 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_sse_s32.S', 420, 438 ]
+1616 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_neon.S
+1617 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_stereo_neon.S', 420, 438 ]
+1618 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_neon_accurate.S
+1619 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_stereo_neon_accurate.S',
+1619 silly gunzTarPerm   420,
+1619 silly gunzTarPerm   438 ]
+1620 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_neon_float.S
+1621 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_stereo_neon_float.S',
+1621 silly gunzTarPerm   420,
+1621 silly gunzTarPerm   438 ]
+1622 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_neon_s32.S
+1623 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_stereo_neon_s32.S', 420, 438 ]
+1624 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_sse_accurate.S
+1625 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_stereo_sse_accurate.S',
+1625 silly gunzTarPerm   420,
+1625 silly gunzTarPerm   438 ]
+1626 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_sse_float.S
+1627 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_stereo_sse_float.S',
+1627 silly gunzTarPerm   420,
+1627 silly gunzTarPerm   438 ]
+1628 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_sse_s32.S
+1629 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_stereo_sse_s32.S', 420, 438 ]
+1630 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_x86_64.S
+1631 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_stereo_x86_64.S', 420, 438 ]
+1632 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_x86_64_accurate.S
+1633 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_stereo_x86_64_accurate.S',
+1633 silly gunzTarPerm   420,
+1633 silly gunzTarPerm   438 ]
+1634 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_x86_64_float.S
+1635 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_stereo_x86_64_float.S',
+1635 silly gunzTarPerm   420,
+1635 silly gunzTarPerm   438 ]
+1636 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_x86_64_s32.S
+1637 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_stereo_x86_64_s32.S',
+1637 silly gunzTarPerm   420,
+1637 silly gunzTarPerm   438 ]
+1638 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_x86_64.S
+1639 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_x86_64.S', 420, 438 ]
+1640 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_x86_64_accurate.S
+1641 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_x86_64_accurate.S', 420, 438 ]
+1642 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_x86_64_float.S
+1643 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_x86_64_float.S', 420, 438 ]
+1644 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_x86_64_s32.S
+1645 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synth_x86_64_s32.S', 420, 438 ]
+1646 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synths.h
+1647 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/synths.h', 420, 438 ]
+1648 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/tabinit.c
+1649 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/tabinit.c', 420, 438 ]
+1650 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/tabinit_mmx.S
+1651 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/tabinit_mmx.S', 420, 438 ]
+1652 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/testcpu.c
+1653 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/testcpu.c', 420, 438 ]
+1654 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/true.h
+1655 silly gunzTarPerm modified mode [ 'deps/mpg123/src/libmpg123/true.h', 420, 438 ]
+1656 silly gunzTarPerm extractEntry deps/mpg123/src/local.c
+1657 silly gunzTarPerm modified mode [ 'deps/mpg123/src/local.c', 420, 438 ]
+1658 silly gunzTarPerm extractEntry deps/mpg123/src/local.h
+1659 silly gunzTarPerm modified mode [ 'deps/mpg123/src/local.h', 420, 438 ]
+1660 silly gunzTarPerm extractEntry deps/mpg123/src/metaprint.c
+1661 silly gunzTarPerm modified mode [ 'deps/mpg123/src/metaprint.c', 420, 438 ]
+1662 silly gunzTarPerm extractEntry deps/mpg123/src/metaprint.h
+1663 silly gunzTarPerm modified mode [ 'deps/mpg123/src/metaprint.h', 420, 438 ]
+1664 silly gunzTarPerm extractEntry deps/mpg123/src/Makefile.in
+1665 silly gunzTarPerm modified mode [ 'deps/mpg123/src/Makefile.in', 420, 438 ]
+1666 silly gunzTarPerm extractEntry deps/mpg123/src/module.h
+1667 silly gunzTarPerm modified mode [ 'deps/mpg123/src/module.h', 420, 438 ]
+1668 silly gunzTarPerm extractEntry deps/mpg123/src/mpg123.c
+1669 silly gunzTarPerm modified mode [ 'deps/mpg123/src/mpg123.c', 420, 438 ]
+1670 silly gunzTarPerm extractEntry deps/mpg123/src/mpg123app.h
+1671 silly gunzTarPerm modified mode [ 'deps/mpg123/src/mpg123app.h', 420, 438 ]
+1672 silly gunzTarPerm extractEntry deps/mpg123/src/output/nas.c
+1673 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/nas.c', 420, 438 ]
+1674 silly gunzTarPerm extractEntry deps/mpg123/src/output/Makefile.am
+1675 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/Makefile.am', 420, 438 ]
+1676 silly gunzTarPerm extractEntry deps/mpg123/src/output/aix.c
+1677 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/aix.c', 420, 438 ]
+1678 silly gunzTarPerm extractEntry deps/mpg123/src/output/alib.c
+1679 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/alib.c', 420, 438 ]
+1680 silly gunzTarPerm extractEntry deps/mpg123/src/output/alsa.c
+1681 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/alsa.c', 420, 438 ]
+1682 silly gunzTarPerm extractEntry deps/mpg123/src/output/arts.c
+1683 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/arts.c', 420, 438 ]
+1684 silly gunzTarPerm extractEntry deps/mpg123/src/output/coreaudio.c
+1685 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/coreaudio.c', 420, 438 ]
+1686 silly gunzTarPerm extractEntry deps/mpg123/src/output/dummy.c
+1687 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/dummy.c', 420, 438 ]
+1688 silly gunzTarPerm extractEntry deps/mpg123/src/output/esd.c
+1689 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/esd.c', 420, 438 ]
+1690 silly gunzTarPerm extractEntry deps/mpg123/src/output/hp.c
+1691 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/hp.c', 420, 438 ]
+1692 silly gunzTarPerm extractEntry deps/mpg123/src/output/jack.c
+1693 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/jack.c', 420, 438 ]
+1694 silly gunzTarPerm extractEntry deps/mpg123/src/output/mint.c
+1695 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/mint.c', 420, 438 ]
+1696 silly gunzTarPerm extractEntry deps/mpg123/src/output/Makefile.in
+1697 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/Makefile.in', 420, 438 ]
+1698 silly gunzTarPerm extractEntry deps/mpg123/src/output/openal.c
+1699 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/openal.c', 420, 438 ]
+1700 silly gunzTarPerm extractEntry deps/mpg123/src/output/os2.c
+1701 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/os2.c', 420, 438 ]
+1702 silly gunzTarPerm extractEntry deps/mpg123/src/output/oss.c
+1703 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/oss.c', 420, 438 ]
+1704 silly gunzTarPerm extractEntry deps/mpg123/src/output/output.h
+1705 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/output.h', 493, 511 ]
+1706 silly gunzTarPerm extractEntry deps/mpg123/src/output/portaudio.c
+1707 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/portaudio.c', 420, 438 ]
+1708 silly gunzTarPerm extractEntry deps/mpg123/src/output/pulse.c
+1709 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/pulse.c', 420, 438 ]
+1710 silly gunzTarPerm extractEntry deps/mpg123/src/output/sdl.c
+1711 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/sdl.c', 420, 438 ]
+1712 silly gunzTarPerm extractEntry deps/mpg123/src/output/sgi.c
+1713 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/sgi.c', 420, 438 ]
+1714 silly gunzTarPerm extractEntry deps/mpg123/src/output/sndio.c
+1715 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/sndio.c', 420, 438 ]
+1716 silly gunzTarPerm extractEntry deps/mpg123/src/output/sun.c
+1717 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/sun.c', 420, 438 ]
+1718 silly gunzTarPerm extractEntry deps/mpg123/src/output/win32.c
+1719 silly gunzTarPerm modified mode [ 'deps/mpg123/src/output/win32.c', 420, 438 ]
+1720 silly gunzTarPerm extractEntry deps/mpg123/src/playlist.c
+1721 silly gunzTarPerm modified mode [ 'deps/mpg123/src/playlist.c', 420, 438 ]
+1722 silly gunzTarPerm extractEntry deps/mpg123/src/playlist.h
+1723 silly gunzTarPerm modified mode [ 'deps/mpg123/src/playlist.h', 420, 438 ]
+1724 silly gunzTarPerm extractEntry deps/mpg123/src/resolver.c
+1725 silly gunzTarPerm modified mode [ 'deps/mpg123/src/resolver.c', 420, 438 ]
+1726 silly gunzTarPerm extractEntry deps/mpg123/src/resolver.h
+1727 silly gunzTarPerm modified mode [ 'deps/mpg123/src/resolver.h', 420, 438 ]
+1728 silly gunzTarPerm extractEntry deps/mpg123/src/sfifo.c
+1729 silly gunzTarPerm modified mode [ 'deps/mpg123/src/sfifo.c', 420, 438 ]
+1730 silly gunzTarPerm extractEntry deps/mpg123/src/sfifo.h
+1731 silly gunzTarPerm modified mode [ 'deps/mpg123/src/sfifo.h', 420, 438 ]
+1732 silly gunzTarPerm extractEntry deps/mpg123/src/streamdump.c
+1733 silly gunzTarPerm modified mode [ 'deps/mpg123/src/streamdump.c', 420, 438 ]
+1734 silly gunzTarPerm extractEntry deps/mpg123/src/streamdump.h
+1735 silly gunzTarPerm modified mode [ 'deps/mpg123/src/streamdump.h', 420, 438 ]
+1736 silly gunzTarPerm extractEntry deps/mpg123/src/term.c
+1737 silly gunzTarPerm modified mode [ 'deps/mpg123/src/term.c', 420, 438 ]
+1738 silly gunzTarPerm extractEntry deps/mpg123/src/term.h
+1739 silly gunzTarPerm modified mode [ 'deps/mpg123/src/term.h', 420, 438 ]
+1740 silly gunzTarPerm extractEntry deps/mpg123/src/tests/noise.c
+1741 silly gunzTarPerm modified mode [ 'deps/mpg123/src/tests/noise.c', 420, 438 ]
+1742 silly gunzTarPerm extractEntry deps/mpg123/src/tests/plain_id3.c
+1743 silly gunzTarPerm modified mode [ 'deps/mpg123/src/tests/plain_id3.c', 420, 438 ]
+1744 silly gunzTarPerm extractEntry deps/mpg123/src/tests/seek_accuracy.c
+1745 silly gunzTarPerm modified mode [ 'deps/mpg123/src/tests/seek_accuracy.c', 420, 438 ]
+1746 silly gunzTarPerm extractEntry deps/mpg123/src/tests/seek_whence.c
+1747 silly gunzTarPerm modified mode [ 'deps/mpg123/src/tests/seek_whence.c', 420, 438 ]
+1748 silly gunzTarPerm extractEntry deps/mpg123/src/tests/testtext.h
+1749 silly gunzTarPerm modified mode [ 'deps/mpg123/src/tests/testtext.h', 420, 438 ]
+1750 silly gunzTarPerm extractEntry deps/mpg123/src/tests/text.c
+1751 silly gunzTarPerm modified mode [ 'deps/mpg123/src/tests/text.c', 420, 438 ]
+1752 silly gunzTarPerm extractEntry deps/mpg123/src/wav.c
+1753 silly gunzTarPerm modified mode [ 'deps/mpg123/src/wav.c', 420, 438 ]
+1754 silly gunzTarPerm extractEntry deps/mpg123/src/wavhead.h
+1755 silly gunzTarPerm modified mode [ 'deps/mpg123/src/wavhead.h', 420, 438 ]
+1756 silly gunzTarPerm extractEntry deps/mpg123/src/win32_net.c
+1757 silly gunzTarPerm modified mode [ 'deps/mpg123/src/win32_net.c', 493, 511 ]
+1758 silly gunzTarPerm extractEntry deps/mpg123/src/win32_support.c
+1759 silly gunzTarPerm modified mode [ 'deps/mpg123/src/win32_support.c', 493, 511 ]
+1760 silly gunzTarPerm extractEntry deps/mpg123/src/win32_support.h
+1761 silly gunzTarPerm modified mode [ 'deps/mpg123/src/win32_support.h', 493, 511 ]
+1762 silly gunzTarPerm extractEntry deps/mpg123/src/xfermem.c
+1763 silly gunzTarPerm modified mode [ 'deps/mpg123/src/xfermem.c', 420, 438 ]
+1764 silly gunzTarPerm extractEntry deps/mpg123/src/xfermem.h
+1765 silly gunzTarPerm modified mode [ 'deps/mpg123/src/xfermem.h', 420, 438 ]
+1766 silly gunzTarPerm extractEntry deps/mpg123/test.c
+1767 silly gunzTarPerm modified mode [ 'deps/mpg123/test.c', 420, 438 ]
+1768 silly gunzTarPerm extractEntry deps/mpg123/windows-builds.sh
+1769 silly gunzTarPerm modified mode [ 'deps/mpg123/windows-builds.sh', 493, 511 ]
+1770 silly gunzTarPerm extractEntry binding.gyp
+1771 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+1772 silly gunzTarPerm extractEntry History.md
+1773 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+1774 silly gunzTarPerm extractEntry examples/floatpcm2mp3.js
+1775 silly gunzTarPerm modified mode [ 'examples/floatpcm2mp3.js', 420, 438 ]
+1776 silly gunzTarPerm extractEntry examples/mp32wav.js
+1777 silly gunzTarPerm modified mode [ 'examples/mp32wav.js', 420, 438 ]
+1778 silly gunzTarPerm extractEntry examples/mp3player.js
+1779 silly gunzTarPerm modified mode [ 'examples/mp3player.js', 420, 438 ]
+1780 silly gunzTarPerm extractEntry examples/wav2mp3.js
+1781 silly gunzTarPerm modified mode [ 'examples/wav2mp3.js', 420, 438 ]
+1782 silly gunzTarPerm extractEntry examples/sample.float.pcm
+1783 silly gunzTarPerm modified mode [ 'examples/sample.float.pcm', 420, 438 ]
+1784 silly gunzTarPerm extractEntry lib/bindings.js
+1785 silly gunzTarPerm modified mode [ 'lib/bindings.js', 420, 438 ]
+1786 silly gunzTarPerm extractEntry lib/decoder.js
+1787 silly gunzTarPerm modified mode [ 'lib/decoder.js', 420, 438 ]
+1788 silly gunzTarPerm extractEntry lib/encoder.js
+1789 silly gunzTarPerm modified mode [ 'lib/encoder.js', 420, 438 ]
+1790 silly gunzTarPerm extractEntry src/bindings.cc
+1791 silly gunzTarPerm modified mode [ 'src/bindings.cc', 420, 438 ]
+1792 silly gunzTarPerm extractEntry src/node_lame.cc
+1793 silly gunzTarPerm modified mode [ 'src/node_lame.cc', 420, 438 ]
+1794 silly gunzTarPerm extractEntry src/node_lame.h
+1795 silly gunzTarPerm modified mode [ 'src/node_lame.h', 420, 438 ]
+1796 silly gunzTarPerm extractEntry src/node_mpg123.cc
+1797 silly gunzTarPerm modified mode [ 'src/node_mpg123.cc', 420, 438 ]
+1798 silly gunzTarPerm extractEntry src/node_mpg123.h
+1799 silly gunzTarPerm modified mode [ 'src/node_mpg123.h', 420, 438 ]
+1800 silly gunzTarPerm extractEntry src/node_pointer.h
+1801 silly gunzTarPerm modified mode [ 'src/node_pointer.h', 420, 438 ]
+1802 silly gunzTarPerm extractEntry .travis.yml
+1803 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+1804 silly gunzTarPerm extractEntry test/decoder.js
+1805 silly gunzTarPerm modified mode [ 'test/decoder.js', 420, 438 ]
+1806 silly gunzTarPerm extractEntry test/fixtures/pipershut_lo.mp3
+1807 silly gunzTarPerm modified mode [ 'test/fixtures/pipershut_lo.mp3', 420, 438 ]
+1808 silly gentlyRm C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\lame-ccb8905a\node_modules is being purged
+1809 verbose gentlyRm don't care about contents; nuking C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\lame-ccb8905a\node_modules
+1810 silly doParallel preinstall 4
+1811 silly preinstall nan@2.5.1 C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\nan-6353377c
+1812 info lifecycle nan@2.5.1~preinstall: nan@2.5.1
+1813 silly preinstall readable-stream@1.1.14 C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\readable-stream-124b6779
+1814 info lifecycle readable-stream@1.1.14~preinstall: readable-stream@1.1.14
+1815 silly preinstall lame@1.2.4 C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\lame-ccb8905a
+1816 info lifecycle lame@1.2.4~preinstall: lame@1.2.4
+1817 silly preinstall player@0.6.1 C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\player-67cb1b3f
+1818 info lifecycle player@0.6.1~preinstall: player@0.6.1
+1819 silly lifecycle nan@2.5.1~preinstall: no script for preinstall, continuing
+1820 silly lifecycle readable-stream@1.1.14~preinstall: no script for preinstall, continuing
+1821 silly lifecycle lame@1.2.4~preinstall: no script for preinstall, continuing
+1822 silly lifecycle player@0.6.1~preinstall: no script for preinstall, continuing
+1823 silly doReverseSerial remove 0
+1824 silly doSerial move 0
+1825 silly doSerial finalize 4
+1826 silly finalize C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\lame\node_modules\nan
+1827 silly finalize C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\lame\node_modules\readable-stream
+1828 silly finalize C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\lame
+1829 silly finalize C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\player
+1830 silly doSerial build 4
+1831 silly build nan@2.5.1
+1832 info linkStuff nan@2.5.1
+1833 silly linkStuff nan@2.5.1 has C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\lame\node_modules as its parent node_modules
+1834 verbose linkBins nan@2.5.1
+1835 verbose linkMans nan@2.5.1
+1836 silly build readable-stream@1.1.14
+1837 info linkStuff readable-stream@1.1.14
+1838 silly linkStuff readable-stream@1.1.14 has C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\lame\node_modules as its parent node_modules
+1839 verbose linkBins readable-stream@1.1.14
+1840 verbose linkMans readable-stream@1.1.14
+1841 silly build lame@1.2.4
+1842 info linkStuff lame@1.2.4
+1843 silly linkStuff lame@1.2.4 has C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules as its parent node_modules
+1844 verbose linkBins lame@1.2.4
+1845 verbose linkMans lame@1.2.4
+1846 silly build player@0.6.1
+1847 info linkStuff player@0.6.1
+1848 silly linkStuff player@0.6.1 has C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules as its parent node_modules
+1849 verbose linkBins player@0.6.1
+1850 verbose link bins [ { player: 'bin/cli' },
+1850 verbose link bins   'C:\\Users\\Patrick\\Documents\\GitHub\\MyoWnBand\\node_modules\\.bin',
+1850 verbose link bins   false ]
+1851 verbose linkMans player@0.6.1
+1852 silly doSerial global-link 0
+1853 silly doParallel update-linked 0
+1854 silly doSerial install 4
+1855 silly install nan@2.5.1 C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\nan-6353377c
+1856 info lifecycle nan@2.5.1~install: nan@2.5.1
+1857 silly lifecycle nan@2.5.1~install: no script for install, continuing
+1858 silly install readable-stream@1.1.14 C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\readable-stream-124b6779
+1859 info lifecycle readable-stream@1.1.14~install: readable-stream@1.1.14
+1860 silly lifecycle readable-stream@1.1.14~install: no script for install, continuing
+1861 silly install lame@1.2.4 C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging\lame-ccb8905a
+1862 info lifecycle lame@1.2.4~install: lame@1.2.4
+1863 verbose lifecycle lame@1.2.4~install: unsafe-perm in lifecycle true
+1864 verbose lifecycle lame@1.2.4~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\lame\node_modules\.bin;C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Python27;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\Patrick\AppData\Local\Microsoft\WindowsApps;C:\wamp64\bin\php\php7.0.10;C:\Users\Patrick\AppData\Roaming\Composer\vendor\bin;C:\Users\Patrick\AppData\Roaming\npm
+1865 verbose lifecycle lame@1.2.4~install: CWD: C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\lame
+1866 silly lifecycle lame@1.2.4~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+1867 silly lifecycle lame@1.2.4~install: Returned: code: 1  signal: null
+1868 info lifecycle lame@1.2.4~install: Failed to exec install script
+1869 verbose unlock done using C:\Users\Patrick\AppData\Roaming\npm-cache\_locks\staging-5907bf6444b98e32.lock for C:\Users\Patrick\Documents\GitHub\MyoWnBand\node_modules\.staging
+1870 silly rollbackFailedOptional Starting
+1871 silly rollbackFailedOptional Finishing
+1872 silly runTopLevelLifecycles Finishing
+1873 silly install printInstalled
+1874 warn myo@3.0.0 license should be a valid SPDX license expression
+1875 verbose If you need help, you may report this error at:
+1875 verbose     <https://github.com/npm/npm/issues>
+1876 verbose stack Error: lame@1.2.4 install: `node-gyp rebuild`
+1876 verbose stack Exit status 1
+1876 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+1876 verbose stack     at emitTwo (events.js:106:13)
+1876 verbose stack     at EventEmitter.emit (events.js:191:7)
+1876 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+1876 verbose stack     at emitTwo (events.js:106:13)
+1876 verbose stack     at ChildProcess.emit (events.js:191:7)
+1876 verbose stack     at maybeClose (internal/child_process.js:877:16)
+1876 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+1877 verbose pkgid lame@1.2.4
+1878 verbose cwd C:\Users\Patrick\Documents\GitHub\MyoWnBand
+1879 error Windows_NT 10.0.14393
+1880 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "update"
+1881 error node v6.9.5
+1882 error npm  v3.10.10
+1883 error code ELIFECYCLE
+1884 error lame@1.2.4 install: `node-gyp rebuild`
+1884 error Exit status 1
+1885 error Failed at the lame@1.2.4 install script 'node-gyp rebuild'.
+1885 error Make sure you have the latest version of node.js and npm installed.
+1885 error If you do, this is most likely a problem with the lame package,
+1885 error not with npm itself.
+1885 error Tell the author that this fails on your system:
+1885 error     node-gyp rebuild
+1885 error You can get information on how to open an issue for this project with:
+1885 error     npm bugs lame
+1885 error Or if that isn't available, you can get their info via:
+1885 error     npm owner ls lame
+1885 error There is likely additional logging output above.
+1886 verbose exit [ 1, true ]
