@@ -1,10 +1,8 @@
 Myo.connect('com.myojs.poseDetector');
-var Player = require('player');
 
 Myo.on('status', function(data){
 	$('.events').prepend(JSON.stringify(data, null, 2));
 })
-
 //Whenever we get a pose event, we'll update the image sources with the active version of the image
 Myo.on('fist', function(fist){
 	$('img.' + fist).attr('src', 'img/' + fist + '_active.png');
